@@ -207,13 +207,13 @@ img {
 
 /* Contenedor del logo */
 .logo-container {
+    position: relative;  /* Permite la superposición del <hr> */
     display: flex;
     justify-content: center;  /* Centra el logo horizontalmente */
     align-items: center;      /* Centra el logo verticalmente */
-    width: 100%;              /* Hace que el contenedor ocupe todo el ancho disponible */
-    margin: 0 auto;           /* Centra el contenedor */
+    width: 100%;
+    margin: 0 auto;
     padding: 0;               /* Elimina el espacio alrededor del contenedor */
-    overflow: hidden;         /* Evita que el logo sobresalga */
 }
 
 /* Estilo del logo */
@@ -223,6 +223,17 @@ img {
     height: auto;             /* Mantiene la proporción del logo */
     max-height: 250px;        /* Ajusta la altura máxima del logo a 250px */
     object-fit: contain;      /* Asegura que el logo no se distorsione */
+}
+
+/* Línea debajo del logo */
+hr {
+    position: absolute;      /* Permite la superposición */
+    top: 80%;                /* Mueve la línea hacia arriba */
+    margin-top: -10px;       /* Ajusta la línea hacia arriba */
+    margin-bottom: 20px;     /* Mantiene un margen debajo de la línea */
+    width: 50%;              /* Ancho de la línea */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Formulario de Contacto */
@@ -308,11 +319,4 @@ label {
     display: block;   /* Hace que la etiqueta ocupe toda la línea */
 }
 
-hr {
-    margin-top: -5px;  /* Mueve la línea hacia arriba */
-    margin-bottom: 10px; /* Mantiene un margen debajo de la línea */
-    border: 1px solid #ddd;
-    width: 50%; /* Ancho de la línea */
-    margin-left: auto;
-    margin-right: auto;
-}
+
