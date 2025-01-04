@@ -5,13 +5,17 @@
     padding: 0;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Títulos */
+h1, h2, h3 {
     color: #333;
 }
 
@@ -31,27 +35,6 @@ section {
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-    margin-top: 20px;
-}
-/* Estilo general */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    color: #333;
 }
 
 /* Navegación */
@@ -75,22 +58,6 @@ nav ul li a:hover {
     color: #00bcd4;
 }
 
-/* Secciones */
-section {
-    margin: 40px auto;
-    padding: 20px;
-    max-width: 800px;
-    background: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-/* Títulos */
-h1, h2, h3 {
-    text-align: center;
-    color: #333;
-}
-
 /* Proyectos */
 #projects {
     background-color: #f9f9f9;
@@ -104,43 +71,6 @@ h1, h2, h3 {
 #projects div:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-/* Formulario de Contacto */
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-form button {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-form button:hover {
-    background-color: #555;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: white;
-    margin-top: 40px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 /* Contenedor de tarjetas de proyectos */
@@ -185,24 +115,42 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#intro {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Formulario de Contacto */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-#intro h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 10px;
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-#intro p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Imagenes */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Contenedor del logo */
@@ -236,42 +184,15 @@ hr {
     margin-right: auto;
 }
 
-/* Formulario de Contacto */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 600px;
-    margin: 20px auto; /* Centra el formulario */
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+/* Estilo para las etiquetas <label> */
+label {
+    font-size: 1rem; /* Ajusta el tamaño del texto */
+    color: #333;     /* Color del texto */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+    display: block;   /* Hace que la etiqueta ocupe toda la línea */
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box; /* Asegura que el padding no aumente el tamaño */
-}
-
-form button {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-form button:hover {
-    background-color: #555;
-}
-
+/* Sección Introducción */
 #intro {
     margin-top: 40px;
     padding: 20px;
@@ -282,7 +203,19 @@ form button:hover {
     margin: 0 auto; /* Centra el contenedor */
 }
 
-/* Formulario de Contacto */
+#intro h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#intro p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Estilo general de los formularios */
 form {
     display: flex;
     flex-direction: column;
@@ -294,29 +227,3 @@ form {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
-/* General */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-/* Estilos para las etiquetas <label> */
-label {
-    font-size: 1rem; /* Ajusta el tamaño del texto */
-    color: #333;     /* Color del texto */
-    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
-    display: block;   /* Hace que la etiqueta ocupe toda la línea */
-}
-
-
