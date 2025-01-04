@@ -213,16 +213,16 @@ img {
     width: 100%;              /* Hace que el contenedor ocupe todo el ancho disponible */
     margin: 0 auto;           /* Centra el contenedor */
     padding: 0;               /* Elimina el espacio alrededor del contenedor */
-    overflow: hidden;         /* Evita que el logo sobresalga del contenedor */
+    overflow: hidden;         /* Evita que el logo sobresalga */
 }
 
 /* Estilo del logo */
 .logo-principal {
-    max-width: 80%;           /* Ajusta el tamaño máximo del logo al 80% del contenedor */
-    width: 100%;              /* Se ajusta automáticamente */
+    max-width: 60%;           /* Ajusta el tamaño máximo del logo al 60% del contenedor */
+    width: 100%;              /* Asegura que el logo se ajuste automáticamente */
     height: auto;             /* Mantiene la proporción del logo */
-    max-height: 300px;        /* Establece un tamaño máximo en altura para el logo */
-    object-fit: contain;      /* Asegura que el logo se ajuste al contenedor sin distorsionarse */
+    max-height: 250px;        /* Ajusta la altura máxima del logo a 250px */
+    object-fit: contain;      /* Asegura que el logo no se distorsione */
 }
 
 /* Formulario de Contacto */
