@@ -309,7 +309,7 @@ label {
 }
 
 hr {
-    margin-top: -10px;  /* Mueve la línea hacia arriba */
+    margin-top: -5px;  /* Mueve la línea hacia arriba */
     margin-bottom: 20px; /* Mantiene un margen debajo de la línea */
     border: 1px solid #ddd;
     width: 50%; /* Ancho de la línea */
