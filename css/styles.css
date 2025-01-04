@@ -295,3 +295,11 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
+/* Estilos para las etiquetas <label> */
+label {
+    font-size: 1rem; /* Ajusta el tamaño del texto */
+    color: #333;     /* Color del texto */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+    display: block;   /* Hace que la etiqueta ocupe toda la línea */
+}
