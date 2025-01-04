@@ -91,25 +91,32 @@
 <section id="contact" style="padding: 2rem 0;">
     <h2 style="text-align: center; color: #333;">Contacto</h2>
     <form action="https://formspree.io/f/xeoopkdg" method="POST" style="max-width: 600px; margin: auto; display: flex; flex-direction: column; gap: 15px;">
+        
         <!-- Nombre -->
+        <label for="name" style="font-size: 1rem; color: #333;">Tu nombre</label>
         <input 
             type="text" 
-            name="name"  <!-- Asegúrate de que el campo tenga el atributo "name" -->
+            name="name"  
+            id="name"
             placeholder="Tu nombre" 
             style="padding: 10px; border: 1px solid #ddd; border-radius: 4px;" 
             required>
         
         <!-- Correo electrónico -->
+        <label for="email" style="font-size: 1rem; color: #333;">Tu correo electrónico</label>
         <input 
             type="email" 
-            name="email"  <!-- Asegúrate de que el campo tenga el atributo "name" -->
+            name="email"  
+            id="email"
             placeholder="Tu correo electrónico" 
             style="padding: 10px; border: 1px solid #ddd; border-radius: 4px;" 
             required>
         
         <!-- Mensaje -->
+        <label for="message" style="font-size: 1rem; color: #333;">Tu mensaje</label>
         <textarea 
-            name="message"  <!-- Asegúrate de que el campo tenga el atributo "name" -->
+            name="message"  
+            id="message"
             placeholder="Tu mensaje" 
             style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; min-height: 100px;" 
             required></textarea>
