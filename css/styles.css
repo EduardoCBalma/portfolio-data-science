@@ -307,3 +307,12 @@ label {
     margin-bottom: 5px; /* Espacio debajo de la etiqueta */
     display: block;   /* Hace que la etiqueta ocupe toda la línea */
 }
+
+hr {
+    margin-top: -10px;  /* Mueve la línea hacia arriba */
+    margin-bottom: 20px; /* Mantiene un margen debajo de la línea */
+    border: 1px solid #ddd;
+    width: 50%; /* Ancho de la línea */
+    margin-left: auto;
+    margin-right: auto;
+}
