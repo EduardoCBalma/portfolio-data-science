@@ -204,3 +204,19 @@ img {
     color: #555;
     line-height: 1.6;
 }
+
+/* Contenedor del logo */
+.logo-container {
+    display: flex;
+    justify-content: center; /* Centra el logo horizontalmente */
+    align-items: center;     /* Centra el logo verticalmente */
+    width: 100%;             /* Hace que el contenedor ocupe todo el ancho disponible */
+    margin: 0 auto;          /* Asegura que el contenedor esté centrado */
+}
+
+/* Estilo del logo */
+.logo-principal {
+    max-width: 100%;         /* Hace que el logo se ajuste al ancho del contenedor */
+    height: auto;            /* Mantiene la proporción del logo */
+    width: 100%;             /* Hace que el logo no se expanda más de lo necesario */
+}
