@@ -208,20 +208,21 @@ img {
 /* Contenedor del logo */
 .logo-container {
     display: flex;
-    justify-content: center;  /* Centra el logo horizontalmente */
-    align-items: center;      /* Centra el logo verticalmente */
-    width: 100%;              /* Hace que el contenedor ocupe todo el ancho disponible */
-    margin: 0 auto;           /* Asegura que el contenedor esté centrado */
-    padding: 10px 0;          /* Ajusta el espacio alrededor del logo */
+    justify-content: center; /* Centra el logo horizontalmente */
+    align-items: center;     /* Centra el logo verticalmente */
+    max-width: 100%;         /* Limita el tamaño máximo del contenedor al 100% del ancho disponible */
+    margin: 0 auto;          /* Asegura que el contenedor esté centrado */
+    padding: 20px 0;         /* Añade espacio vertical alrededor del logo */
+    overflow: hidden;        /* Evita que el contenido se salga del contenedor */
 }
 
 /* Estilo del logo */
 .logo-principal {
-    max-width: 80%;           /* Hace que el logo ocupe un máximo del 80% del ancho disponible */
-    height: auto;             /* Mantiene la proporción del logo */
-    width: auto;              /* Ajusta la anchura automáticamente */
+    max-width: 400px;        /* Limita el tamaño máximo del logo */
+    width: 100%;             /* Hace que el logo se ajuste al tamaño disponible */
+    height: auto;            /* Mantiene la proporción del logo */
+    object-fit: contain;     /* Ajusta el contenido del logo dentro de su contenedor */
 }
-
 
 /* Formulario de Contacto */
 form {
