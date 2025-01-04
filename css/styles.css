@@ -176,8 +176,8 @@ img {
 /* Línea debajo del logo */
 hr {
     position: absolute;      /* Permite la superposición */
-    top: 80%;                /* Mueve la línea hacia arriba */
-    margin-top: -10px;       /* Ajusta la línea hacia arriba */
+    top: 100%;               /* Mueve la línea justo debajo del logo */
+    margin-top: 10px;        /* Añadimos espacio entre el logo y la línea */
     margin-bottom: 20px;     /* Mantiene un margen debajo de la línea */
     width: 50%;              /* Ancho de la línea */
     margin-left: auto;
