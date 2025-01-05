@@ -20,7 +20,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;  /* El video ocupa todo el ancho disponible */
-    height: 100%; /* El video ocupa el 100% de la altura */
+    height: 70%; /* El video ocupa el 100% de la altura */
     object-fit: cover;  /* Asegura que el video cubra el área sin distorsionarse */
     z-index: -1;  /* Asegura que el video quede detrás de todo el contenido */
 }
