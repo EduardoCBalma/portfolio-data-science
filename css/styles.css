@@ -20,9 +20,18 @@ body {
     top: 0;
     left: 0;
     width: 100%;  /* El video ocupa todo el ancho disponible */
-    height: 46.3%; /* El video ocupa el 46.3% de la altura disponible */
+    height: 100%; /* El video ocupa el 100% de la altura */
     object-fit: cover;  /* Asegura que el video cubra el área sin distorsionarse */
     z-index: -1;  /* Asegura que el video quede detrás de todo el contenido */
+}
+
+/* Ajustes específicos para móviles */
+@media (max-width: 768px) {
+    #video-background {
+        width: 100%;  /* Asegura que el video se ajuste al ancho de la pantalla */
+        height: 100vh;  /* Ajusta la altura al 100% de la ventana de visualización */
+        object-fit: cover;  /* Asegura que el video cubra el área de la pantalla sin distorsionarse */
+    }
 }
 
 /* Estilo del logo */
