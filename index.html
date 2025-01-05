@@ -11,6 +11,13 @@
 </head>
 
 <body>
+    <!-- Video de fondo -->
+    <video autoplay muted loop id="video-background">
+        <source src="videos/Primero.mp4" type="video/mp4">
+        <source src="videos/Primero.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
     <!-- Barra de Navegación -->
     <nav style="background-color: #333; color: white; padding: 1rem; position: sticky; top: 0; z-index: 1000;">
         <ul style="list-style: none; display: flex; justify-content: center; margin: 0; padding: 0;">
@@ -21,34 +28,29 @@
         </ul>
     </nav>
 
-    <!-- Contenido principal -->
+    <!-- Logo y contenido -->
+    <div style="position: relative; z-index: 1; text-align: center;">
+        <!-- Logo -->
+        <img src="img/logo_principal2-removebg.png" alt="Mi Logo" class="logo-principal" style="max-width: 60%; height: auto; max-height: 250px; object-fit: contain;">
+
+        <!-- Línea debajo del logo -->
+        <hr style="border: 1px solid #ddd; width: 50%; margin: 0 auto;">
+
+        <!-- Redes sociales -->
+        <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px;">
+            <a href="https://www.linkedin.com/in/eduardo-campos-balma-153858290/" target="_blank">
+                <img src="img/in_social.png" alt="LinkedIn" style="max-width: 100px;">
+            </a>
+            <a href="https://x.com/EduardoCBalma" target="_blank">
+                <img src="img/x_social.png" alt="X" style="max-width: 100px;">
+            </a>
+            <a href="https://www.instagram.com/eddescbbs/" target="_blank">
+                <img src="img/insta_social.png" alt="Instagram" style="max-width: 100px;">
+            </a>
+        </div>
+    </div>
+
     <main>
-
-        <!-- Sección de introducción -->
-        <section id="intro">
-            <div class="logo-container">
-                <!-- Logo personal -->
-                <img src="img/logo_principal2-removebg.png" alt="Mi Logo" class="logo-principal">
-            </div>
-
-            <!-- Línea debajo del logo -->
-            <hr style="border: 1px solid #ddd; width: 50%; margin: 0 auto;">
-
-            <!-- Redes sociales -->
-            <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px;">
-                <!-- Enlaces a redes sociales -->
-                <a href="https://www.linkedin.com/in/eduardo-campos-balma-153858290/" target="_blank">
-                    <img src="img/in_social.png" alt="LinkedIn" style="max-width: 100px;">
-                </a>
-                <a href="https://x.com/EduardoCBalma" target="_blank">
-                    <img src="img/x_social.png" alt="X" style="max-width: 100px;">
-                </a>
-                <a href="https://www.instagram.com/eddescbbs/" target="_blank">
-                    <img src="img/insta_social.png" alt="Instagram" style="max-width: 100px;">
-                </a>
-            </div>
-        </section>
-
         <!-- Resumen de Data Science -->
         <section id="data-science-summary" style="text-align: center; max-width: 800px; margin: auto;">
             <h3>Lo que puedo hacer como Data Scientist</h3>
@@ -59,8 +61,7 @@
         <section id="about">
             <h2 style="text-align: center; color: #333;">Sobre mí</h2>
             <p style="text-align: justify; max-width: 800px; margin: auto;">
-                ¡Hola! Soy <strong>Eduardo Campos Balma</strong>, un apasionado de la ciencia de datos con experiencia en análisis, visualización y modelado de datos. 
-                Me encanta transformar datos en información valiosa y resolver problemas complejos mediante modelos de aprendizaje automático.
+                ¡Hola! Soy <strong>Eduardo Campos Balma</strong>, un apasionado de la ciencia de datos con experiencia en análisis, visualización y modelado de datos.
             </p>
         </section>
 
@@ -89,6 +90,7 @@
             </div>
         </section>
 
+
         <!-- Sección de Contacto -->
         <section id="contact" style="padding: 2rem 0;">
             <h2 style="text-align: center; color: #333;">Contacto</h2>
@@ -114,12 +116,10 @@
 
     </main>
 
-    <!-- Pie de página -->
     <footer style="text-align: center; padding: 1rem 0; background-color: #333; color: white;">
         <p>© 2025 Eduardo Campos Balma - Todos los derechos reservados.</p>
     </footer>
 
-    <!-- Vinculación del archivo JS -->
     <script src="js/scripts.js"></script>
 </body>
 

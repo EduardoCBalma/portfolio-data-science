@@ -33,30 +33,10 @@ form.addEventListener('submit', function (e) {
 // Efecto de aparición de las tarjetas de proyectos
 window.addEventListener('load', function () {
     const projectCards = document.querySelectorAll('#projects div > div');
-    projectCards.forEach(card => {
-        card.style.opacity = 0;
-        card.style.transition = 'opacity 0.5s ease-in-out';
+    
+    projectCards.forEach((card, index) => {
         setTimeout(() => {
-            card.style.opacity = 1;
-        }, 100);
+            card.classList.add('show');  // Agrega la clase 'show' después de un retraso
+        }, index * 300); // Un pequeño retraso para que las tarjetas aparezcan una por una
     });
 });
-
-// Mostrar u ocultar sección de contacto
-const contactSection = document.querySelector('#contact');
-const contactButton = document.createElement('button');
-contactButton.textContent = "Mostrar/Ocultar Contacto";
-document.querySelector('main').prepend(contactButton);
-
-contactButton.addEventListener('click', () => {
-    if (contactSection.style.display === "none") {
-        contactSection.style.display = "block";
-    } else {
-        contactSection.style.display = "none";
-    }
-});
-
-// Mostrar un mensaje de bienvenida (opcional)
-window.onload = function () {
-    alert("¡Bienvenido a mi portafolio!");
-}
