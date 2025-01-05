@@ -29,7 +29,7 @@ body {
 @media (max-width: 768px) {
     #video-background {
         width: 100%;  /* Asegura que el video se ajuste al ancho de la pantalla */
-        height: 80vh;  /* Ajusta la altura al 100% de la ventana de visualización */
+        height: 90vh;  /* Ajusta la altura al 100% de la ventana de visualización */
         object-fit: cover;  /* Asegura que el video cubra el área de la pantalla sin distorsionarse */
     }
 }
