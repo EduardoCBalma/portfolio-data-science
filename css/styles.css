@@ -36,7 +36,7 @@ body {
 
 /* Estilo del logo */
 .logo-principal {
-    max-width: 70%;  /* Tamaño máximo del logo */
+    max-width: 100%;  /* Tamaño máximo del logo */
     height: auto;
     max-height: 250px;
     object-fit: contain;
