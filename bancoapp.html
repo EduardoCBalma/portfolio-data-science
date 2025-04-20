@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BancoApp - Aplicación de Análisis Financiero</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Favicon y metadatos para diferentes plataformas y navegadores -->
+    <link rel="icon" type="image/png" href="assets/img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="assets/img/site.webmanifest" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Encabezado Simple con Botón de Regreso -->
+    <header class="simple-header">
+        <a href="index.html" class="btn-return">Volver al Portafolio</a>
+    </header>
+
+    <!-- Sección Principal -->
+    <section class="bancoapp">
+        <div class="container">
+            <div class="content-box">
+
+                <!-- Logo de BancoApp -->
+                <div class="vector-container">
+                    <img src="assets/img/Logo_BancoApp.png" alt="Logo de BancoApp">
+                </div>
+
+                <h1>BancoApp - Aplicación de Análisis Financiero</h1>
+                <h2>1. Introducción</h2>
+                <p>BancoApp es una aplicación web enfocada en la gestión de datos bancarios. Su objetivo es proporcionar una herramienta profesional que permita la recolección, tratamiento, análisis y visualización de datos financieros. La aplicación gestiona información de clientes, transacciones, préstamos, pagos y fraudes, facilitando la toma de decisiones basada en datos.</p>
+
+                <h2>2. Objetivos del Proyecto</h2>
+                <ul>
+                    <li>Desarrollar una aplicación web robusta y escalable para el análisis de datos bancarios.</li>
+                    <li>Facilitar la carga y gestión de información desde archivos CSV y API externas.</li>
+                    <li>Automatizar procesos de limpieza y transformación de datos mediante Python.</li>
+                    <li>Ofrecer dashboards interactivos con visualizaciones clave.</li>
+                    <li>Garantizar la seguridad y la integridad de los datos mediante una base de datos MySQL.</li>
+                </ul>
+
+                <h2>3. Tecnologías Utilizadas</h2>
+                <ul>
+                    <li><strong>Backend:</strong> Flask (Python)</li>
+                    <li><strong>Frontend:</strong> HTML, CSS, Bootstrap</li>
+                    <li><strong>Base de Datos:</strong> MySQL (local para desarrollo y IONOS para producción)</li>
+                    <li><strong>Visualización:</strong> Dash para Python</li>
+                    <li><strong>Herramientas:</strong> Visual Studio Code, MySQL Workbench, Git</li>
+                </ul>
+
+                <h2>4. Estructura del Proyecto</h2>
+                <pre><code>
+BancoApp/
+│-- app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── processing.py
+│   ├── routes.py
+│-- templates/
+│   ├── index.html
+│   ├── upload.html
+│   ├── clientes.html
+│   ├── analisis.html
+│-- static/
+│-- data/
+│-- main.py
+│-- requirements.txt
+                </code></pre>
+
+                <h2>5. Funcionalidades Implementadas</h2>
+                <ul>
+                    <li><strong>Carga de Datos:</strong> Subida de archivos CSV con validación de estructura.</li>
+                    <li><strong>Base de Datos:</strong> Gestión de clientes, préstamos, transacciones y fraudes.</li>
+                    <li><strong>Visualizaciones:</strong> Dashboards interactivos para analizar tendencias y detectar fraudes.</li>
+                    <li><strong>Predicción de Riesgo:</strong> Implementación de un modelo de predicción basado en datos.</li>
+                    <li><strong>Seguridad:</strong> Clave secreta y restricción de acceso a áreas sensibles.</li>
+                </ul>
+
+                <h2>6. Plan de Implementación en Producción</h2>
+                <ul>
+                    <li>Desplegar la aplicación en IONOS.</li>
+                    <li>Migrar la base de datos local a MySQL en la nube.</li>
+                    <li>Configurar el dominio web eduardocbalma.store.</li>
+                    <li>Realizar pruebas de carga y seguridad.</li>
+                </ul>
+
+                <h2>7. Futuras Mejoras</h2>
+                <ul>
+                    <li>Integración de autenticación de usuarios.</li>
+                    <li>Automatización de reportes periódicos.</li>
+                    <li>Expansión de la API para acceso remoto a datos.</li>
+                    <li>Implementación de machine learning para análisis predictivo.</li>
+                </ul>
+
+                <h2>8. Conclusión</h2>
+                <p>BancoApp es un proyecto integral que aborda la gestión de datos financieros con un enfoque en automatización, seguridad y visualización. Su arquitectura flexible permite adaptarse a diferentes necesidades del sector bancario, garantizando eficiencia y confiabilidad.</p>
+
+                <h2>Explora la Aplicación</h2>
+                <p>Puedes acceder a la aplicación en el siguiente enlace:</p>
+                <a href="https://www.eduardocbalma.store" class="btn-experience" target="_blank">Ir a BancoApp →</a>
+            </div>
+
+            <!-- Sección de Vista Previa -->
+            <section id="preview" class="preview-container">
+                <h2>Vista Previa - BancoApp</h2>
+                <iframe 
+                    src="https://www.eduardocbalma.store" 
+                    width="100%" 
+                    height="600px" 
+                    style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" 
+                    allowfullscreen>
+                </iframe>
+            </section>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Eduardo Campos Balma | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>

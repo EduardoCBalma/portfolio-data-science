@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo Energético - Power BI</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Favicon y metadatos para diferentes plataformas y navegadores -->
+    <link rel="icon" type="image/png" href="assets/img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="assets/img/site.webmanifest" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Encabezado Simple con Botón de Regreso -->
+    <header class="simple-header">
+        <a href="index.html" class="btn-return">Volver al Portafolio</a>
+    </header>
+
+    <!-- Sección Principal -->
+    <section class="consumo-energetico">
+        <div class="container">
+
+            <!-- Ilustración Encima del Contenido -->
+            <div class="vector-container">
+                <img src="assets/img/ilustracion-pr1.avif" alt="Ilustración del Proyecto de Energía">
+            </div>
+
+            <!-- Contenido Principal -->
+            <div class="content-box">
+                <h1>Análisis del Consumo Energético en España - Dashboard en Power BI</h1>
+                <p>
+                    El objetivo principal de este proyecto fue crear un dashboard interactivo utilizando Power BI para explorar y analizar el consumo de energía en España. 
+                    Se utilizó MySQL Workbench para la preparación de los datos, transformándolos desde un archivo CSV no estructurado hasta una base de datos bien organizada y normalizada.
+                </p>
+
+                <h2>Proceso de Preparación de los Datos: De CSV a MySQL Workbench</h2>
+                <p>El conjunto de datos inicial estaba en formato CSV y necesitaba ser procesado y normalizado para facilitar el análisis en Power BI.</p>
+
+                <h3>1. Importación de los Archivos CSV a MySQL Workbench</h3>
+                <p>Los datos fueron importados a MySQL Workbench y organizados en una base de datos relacional.</p>
+                <ul>
+                    <li><strong>Dim_Comunidad_Autónoma:</strong> Información sobre comunidades autónomas.</li>
+                    <li><strong>Dim_Provincia:</strong> Provincias registradas.</li>
+                    <li><strong>Dim_Tipo_Vivienda:</strong> Tipos de vivienda.</li>
+                    <li><strong>Dim_Tipo_Energia:</strong> Tipos de energía.</li>
+                    <li><strong>Tabla_Consumo:</strong> Datos sobre consumo energético.</li>
+                </ul>
+
+                <h3>2. Normalización de los Datos</h3>
+                <p>Se realizó un proceso de normalización en MySQL Workbench, dividiendo los datos en varias tablas relacionadas.</p>
+
+                <h2>Preguntas Clave y Consultas SQL</h2>
+
+                <h3>1. ¿Cuál es el consumo promedio de energía por provincia?</h3>
+                <pre><code>
+SELECT p.provincia, AVG(t.consumo_kwh) AS consumo_promedio
+FROM Tabla_Consumo t
+JOIN Dim_Provincia p ON t.id_provincia = p.id_provincia
+GROUP BY p.provincia;
+                </code></pre>
+
+                <h3>2. ¿Cuál es el tipo de energía más utilizado por comunidad autónoma?</h3>
+                <pre><code>
+SELECT ca.comunidad_autonoma, te.tipo_energia AS tipo_energia_mas_utilizado
+FROM Dim_Comunidad_Autónoma ca
+JOIN (
+    SELECT t.id_comunidad, t.tipo_energia, 
+           ROW_NUMBER() OVER (PARTITION BY t.id_comunidad ORDER BY COUNT(*) DESC) AS rn
+    FROM Tabla_Consumo t
+    GROUP BY t.id_comunidad, t.tipo_energia
+) te ON ca.id_comunidad = te.id_comunidad
+WHERE te.rn = 1
+GROUP BY ca.comunidad_autonoma;
+                </code></pre>
+
+                <h3>3. ¿Qué porcentaje de hogares utiliza energía renovable por comunidad autónoma?</h3>
+                <pre><code>
+SELECT ca.comunidad_autonoma,  
+       SUM(CASE WHEN t.uso_energia_renovable = 'Sí' THEN 1 ELSE 0 END) / COUNT(*) * 100 AS porcentaje_renovable
+FROM Tabla_Consumo t
+JOIN Dim_Comunidad_Autónoma ca ON t.id_comunidad = ca.id_comunidad
+GROUP BY ca.comunidad_autonoma;
+                </code></pre>
+
+                <h3>4. ¿Cuál es la factura mensual promedio por tipo de energía?</h3>
+                <pre><code>
+SELECT te.tipo_energia, AVG(t.factura_mensual) AS factura_promedio
+FROM Tabla_Consumo t
+JOIN Dim_Tipo_Energia te ON t.id_tipo_energia = te.id_tipo_energia
+GROUP BY te.tipo_energia;
+                </code></pre>
+
+                <h2>Visualización de los Datos en Power BI</h2>
+                <p>Los datos normalizados fueron importados a Power BI para crear un dashboard interactivo con múltiples visualizaciones.</p>
+
+                <!-- Contenedor de Descarga de Tablas -->
+                <div class="download-container">
+                    <h2>Descarga de Tablas</h2>
+                    <p>Puedes descargar las tablas utilizadas en el análisis:</p>
+                    <ul>
+                        <li><a href="assets/docs/tabla_consumo.csv" download>📄 Tabla de Hechos: tabla_consumo.csv</a></li>
+                        <li><a href="assets/docs/dim_comunidad_autonoma.csv" download>📄 Tabla de Dimensiones: dim_comunidad_autonoma.csv</a></li>
+                        <li><a href="assets/docs/dim_provincia.csv" download>📄 Tabla de Dimensiones: dim_provincia.csv</a></li>
+                        <li><a href="assets/docs/dim_tipo_vivienda.csv" download>📄 Tabla de Dimensiones: dim_tipo_vivienda.csv</a></li>
+                        <li><a href="assets/docs/dim_energia.csv" download>📄 Tabla de Dimensiones: dim_energia.csv</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Dashboard de Power BI -->
+            <section id="powerbi-dashboard" class="powerbi-container">
+                <h2>Dashboard de Consumo Energético en España</h2>
+                <iframe 
+                    width="100%" 
+                    height="600px" 
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZTg1YTZkYzYtYzc1NC00NDI1LWE5ZmItYzAyYWMwZjEyMjM5IiwidCI6IjliOTBhYzYyLWQ5NTMtNDc0My05Y2I4LTkyMDg4NTAyMjdkNSJ9" 
+                    frameborder="0" 
+                    allowFullScreen="true">
+                </iframe>
+            </section>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Eduardo Campos Balma | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>

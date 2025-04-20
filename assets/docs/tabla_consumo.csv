@@ -1,0 +1,1001 @@
+"id_hogar";"año";"mes";"consumo_kwh";"tipo_vivienda";"tipo_energia";"factura_mensual";"provincia";"comunidad_autonoma";"tamaño_vivienda_m2";"num_habitantes";"aislamiento_vivienda";"uso_energia_renovable";"precio_energia_eur_kwh";"tipo_equipos_electronicos";"estacion";"modo_facturacion";"consumo_promedio_historico";"vivienda_alquiler_propiedad";"años_vivienda_ocupada";"temperatura_media_mensual";"id_provincia";"id_comunidad";"id_tipo_vivienda";"id_tipo_energia"
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";142;3;"Bueno";"Sí";0.298;"Electrodomésticos";"Verano";"Tarifa variable";325.0;"Propiedad";13;12.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";91;3;"Deficiente";"No";0.298;"Calefacción eléctrica";"Verano";"Tarifa fija";358.0;"Alquiler";5;13.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";132;3;"Deficiente";"No";0.297;"Calefacción eléctrica";"Invierno";"Tarifa fija";310.0;"Alquiler";16;16.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";54;5;"Deficiente";"No";0.289;"Calefacción eléctrica";"Invierno";"Tarifa fija";367.0;"Alquiler";11;15.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";146;2;"Deficiente";"Sí";0.253;"Aire acondicionado";"Verano";"Tarifa variable";247.0;"Alquiler";5;21.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";111;5;"Regular";"No";0.298;"Electrodomésticos";"Otoño";"Tarifa fija";250.0;"Alquiler";13;16.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";100;2;"Deficiente";"No";0.233;"Calefacción eléctrica";"Invierno";"Tarifa variable";242.0;"Propiedad";11;12.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";60;3;"Regular";"No";0.168;"Aire acondicionado";"Otoño";"Tarifa variable";297.0;"Propiedad";19;14.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";142;3;"Regular";"Sí";0.243;"Electrodomésticos";"Primavera";"Tarifa fija";382.0;"Alquiler";3;17.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";122;5;"Regular";"No";0.213;"Aire acondicionado";"Otoño";"Tarifa fija";376.0;"Propiedad";15;12.0;6;6;2;1
+"Hogar_11";2022;"Mayo";255.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";126;5;"Bueno";"Sí";0.232;"Electrodomésticos";"Verano";"Tarifa variable";323.0;"Propiedad";7;19.0;7;2;2;2
+"Hogar_12";2021;"Junio";398.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";114;2;"Regular";"No";0.225;"Aire acondicionado";"Primavera";"Tarifa variable";279.0;"Propiedad";7;18.0;3;3;1;1
+"Hogar_13";2022;"Abril";399.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";114;4;"Regular";"Sí";0.126;"Electrodomésticos";"Invierno";"Tarifa variable";384.0;"Alquiler";6;20.0;8;7;2;1
+"Hogar_14";2021;"Julio";234.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";127;2;"Bueno";"Sí";0.255;"Electrodomésticos";"Invierno";"Tarifa variable";310.0;"Alquiler";3;24.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";176.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";139;5;"Bueno";"Sí";0.197;"Aire acondicionado";"Primavera";"Tarifa variable";342.0;"Alquiler";13;23.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";333.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";143;5;"Bueno";"No";0.122;"Calefacción eléctrica";"Otoño";"Tarifa variable";226.0;"Propiedad";7;24.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";63;1;"Deficiente";"No";0.118;"Electrodomésticos";"Invierno";"Tarifa fija";395.0;"Propiedad";5;13.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";42;5;"Bueno";"Sí";0.124;"Calefacción eléctrica";"Verano";"Tarifa variable";391.0;"Alquiler";18;11.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";61;1;"Bueno";"Sí";0.164;"Aire acondicionado";"Primavera";"Tarifa variable";357.0;"Alquiler";8;14.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";92;4;"Regular";"No";0.15;"Calefacción eléctrica";"Verano";"Tarifa variable";363.0;"Propiedad";17;23.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";41;2;"Bueno";"No";0.157;"Calefacción eléctrica";"Primavera";"Tarifa variable";394.0;"Propiedad";1;24.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";127;2;"Deficiente";"Sí";0.234;"Calefacción eléctrica";"Invierno";"Tarifa fija";312.0;"Alquiler";14;22.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";147;1;"Bueno";"No";0.202;"Calefacción eléctrica";"Otoño";"Tarifa fija";285.0;"Propiedad";17;11.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";69;2;"Deficiente";"No";0.207;"Calefacción eléctrica";"Primavera";"Tarifa variable";313.0;"Propiedad";10;24.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";77;5;"Bueno";"No";0.128;"Electrodomésticos";"Primavera";"Tarifa variable";323.0;"Propiedad";12;16.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";41;3;"Bueno";"No";0.121;"Electrodomésticos";"Verano";"Tarifa variable";248.0;"Propiedad";16;10.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";103;1;"Bueno";"Sí";0.119;"Electrodomésticos";"Invierno";"Tarifa fija";275.0;"Propiedad";14;16.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";99;2;"Bueno";"No";0.134;"Aire acondicionado";"Verano";"Tarifa fija";254.0;"Propiedad";16;10.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";60;1;"Deficiente";"No";0.211;"Calefacción eléctrica";"Invierno";"Tarifa fija";255.0;"Propiedad";8;18.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";72;1;"Deficiente";"Sí";0.156;"Electrodomésticos";"Verano";"Tarifa fija";395.0;"Alquiler";10;15.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";115;3;"Regular";"Sí";0.243;"Aire acondicionado";"Primavera";"Tarifa fija";294.0;"Alquiler";17;17.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";97;5;"Deficiente";"No";0.251;"Electrodomésticos";"Verano";"Tarifa fija";243.0;"Propiedad";18;19.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";61;1;"Bueno";"No";0.224;"Electrodomésticos";"Otoño";"Tarifa variable";358.0;"Propiedad";16;23.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";147;2;"Regular";"No";0.266;"Calefacción eléctrica";"Invierno";"Tarifa fija";385.0;"Propiedad";17;19.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";128;4;"Regular";"No";0.158;"Aire acondicionado";"Invierno";"Tarifa fija";286.0;"Alquiler";16;16.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";88;1;"Regular";"Sí";0.291;"Calefacción eléctrica";"Primavera";"Tarifa variable";380.0;"Alquiler";19;22.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";130;1;"Bueno";"Sí";0.281;"Calefacción eléctrica";"Invierno";"Tarifa fija";283.0;"Propiedad";8;23.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";98;3;"Deficiente";"Sí";0.233;"Electrodomésticos";"Otoño";"Tarifa variable";350.0;"Alquiler";6;11.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";81;5;"Bueno";"No";0.223;"Calefacción eléctrica";"Verano";"Tarifa fija";355.0;"Propiedad";6;17.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";131;4;"Regular";"No";0.114;"Aire acondicionado";"Primavera";"Tarifa variable";215.0;"Propiedad";9;14.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";99;2;"Bueno";"No";0.203;"Calefacción eléctrica";"Otoño";"Tarifa variable";364.0;"Propiedad";4;10.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";119;4;"Bueno";"No";0.173;"Calefacción eléctrica";"Invierno";"Tarifa variable";348.0;"Propiedad";12;20.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";54;2;"Deficiente";"Sí";0.157;"Calefacción eléctrica";"Invierno";"Tarifa variable";344.0;"Propiedad";12;22.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";101;5;"Deficiente";"Sí";0.165;"Electrodomésticos";"Otoño";"Tarifa variable";236.0;"Propiedad";17;12.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";101;2;"Regular";"No";0.253;"Aire acondicionado";"Verano";"Tarifa fija";276.0;"Propiedad";15;22.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";86;3;"Bueno";"Sí";0.272;"Electrodomésticos";"Verano";"Tarifa fija";346.0;"Alquiler";9;22.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";101;3;"Bueno";"No";0.299;"Electrodomésticos";"Primavera";"Tarifa variable";357.0;"Propiedad";7;23.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";90;3;"Deficiente";"No";0.181;"Electrodomésticos";"Invierno";"Tarifa variable";244.0;"Alquiler";10;13.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";147;3;"Bueno";"Sí";0.107;"Electrodomésticos";"Otoño";"Tarifa variable";345.0;"Propiedad";16;23.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";94;4;"Bueno";"No";0.291;"Electrodomésticos";"Verano";"Tarifa fija";261.0;"Propiedad";12;14.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";103;5;"Bueno";"No";0.236;"Aire acondicionado";"Primavera";"Tarifa variable";363.0;"Alquiler";7;18.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";42;2;"Deficiente";"Sí";0.207;"Calefacción eléctrica";"Invierno";"Tarifa variable";299.0;"Alquiler";18;10.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";140;2;"Regular";"No";0.227;"Electrodomésticos";"Invierno";"Tarifa variable";251.0;"Propiedad";15;10.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";90;3;"Regular";"No";0.215;"Electrodomésticos";"Primavera";"Tarifa variable";218.0;"Alquiler";6;20.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";46;3;"Bueno";"Sí";0.292;"Aire acondicionado";"Primavera";"Tarifa fija";308.0;"Propiedad";12;16.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";60;1;"Regular";"No";0.117;"Aire acondicionado";"Verano";"Tarifa variable";243.0;"Propiedad";11;13.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";112;5;"Deficiente";"Sí";0.208;"Calefacción eléctrica";"Otoño";"Tarifa variable";206.0;"Alquiler";3;12.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";78;4;"Deficiente";"No";0.189;"Aire acondicionado";"Invierno";"Tarifa fija";371.0;"Alquiler";2;20.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";57;2;"Regular";"Sí";0.219;"Calefacción eléctrica";"Otoño";"Tarifa variable";316.0;"Alquiler";6;10.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";43;1;"Regular";"Sí";0.23;"Electrodomésticos";"Invierno";"Tarifa variable";267.0;"Alquiler";5;22.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";128;1;"Bueno";"Sí";0.194;"Electrodomésticos";"Invierno";"Tarifa fija";233.0;"Propiedad";18;11.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";99;2;"Regular";"No";0.181;"Calefacción eléctrica";"Otoño";"Tarifa fija";393.0;"Alquiler";16;12.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";53;4;"Bueno";"Sí";0.222;"Aire acondicionado";"Primavera";"Tarifa fija";268.0;"Alquiler";8;15.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";48;1;"Bueno";"Sí";0.268;"Calefacción eléctrica";"Verano";"Tarifa variable";254.0;"Alquiler";11;17.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";129;1;"Deficiente";"Sí";0.172;"Aire acondicionado";"Invierno";"Tarifa variable";209.0;"Alquiler";10;15.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";92;5;"Deficiente";"Sí";0.156;"Electrodomésticos";"Primavera";"Tarifa fija";241.0;"Alquiler";12;14.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";41;4;"Deficiente";"Sí";0.166;"Aire acondicionado";"Invierno";"Tarifa fija";240.0;"Propiedad";6;24.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";123;1;"Deficiente";"No";0.262;"Calefacción eléctrica";"Verano";"Tarifa fija";396.0;"Propiedad";5;19.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";131;4;"Regular";"No";0.112;"Calefacción eléctrica";"Invierno";"Tarifa variable";321.0;"Alquiler";9;10.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";99;2;"Deficiente";"No";0.273;"Electrodomésticos";"Verano";"Tarifa variable";337.0;"Alquiler";16;16.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";110;3;"Regular";"No";0.131;"Aire acondicionado";"Verano";"Tarifa fija";209.0;"Propiedad";14;23.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";83;1;"Deficiente";"No";0.134;"Aire acondicionado";"Invierno";"Tarifa variable";301.0;"Alquiler";8;14.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";47;5;"Regular";"No";0.179;"Aire acondicionado";"Invierno";"Tarifa fija";387.0;"Propiedad";19;11.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";86;2;"Bueno";"No";0.194;"Electrodomésticos";"Verano";"Tarifa variable";327.0;"Propiedad";14;21.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";74;4;"Regular";"Sí";0.131;"Aire acondicionado";"Primavera";"Tarifa variable";378.0;"Alquiler";7;19.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";117;2;"Regular";"No";0.172;"Calefacción eléctrica";"Otoño";"Tarifa variable";348.0;"Propiedad";5;18.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";120;1;"Deficiente";"Sí";0.166;"Aire acondicionado";"Verano";"Tarifa variable";335.0;"Alquiler";18;10.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";75;4;"Regular";"Sí";0.217;"Electrodomésticos";"Invierno";"Tarifa fija";392.0;"Alquiler";2;12.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";89;3;"Bueno";"No";0.286;"Aire acondicionado";"Invierno";"Tarifa variable";291.0;"Propiedad";11;19.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";143;2;"Bueno";"Sí";0.279;"Aire acondicionado";"Primavera";"Tarifa variable";312.0;"Propiedad";8;13.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";43;1;"Deficiente";"Sí";0.239;"Calefacción eléctrica";"Otoño";"Tarifa fija";277.0;"Alquiler";1;17.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";41;5;"Bueno";"Sí";0.256;"Aire acondicionado";"Verano";"Tarifa variable";284.0;"Propiedad";12;18.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";45;4;"Regular";"Sí";0.263;"Calefacción eléctrica";"Verano";"Tarifa fija";229.0;"Alquiler";2;14.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";93;2;"Bueno";"No";0.249;"Calefacción eléctrica";"Otoño";"Tarifa fija";248.0;"Propiedad";18;24.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";145;2;"Deficiente";"No";0.153;"Electrodomésticos";"Verano";"Tarifa variable";208.0;"Propiedad";7;22.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";43;3;"Regular";"No";0.121;"Calefacción eléctrica";"Otoño";"Tarifa variable";344.0;"Alquiler";17;20.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";93;3;"Deficiente";"No";0.244;"Calefacción eléctrica";"Invierno";"Tarifa fija";268.0;"Alquiler";14;11.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";132;5;"Regular";"No";0.159;"Electrodomésticos";"Otoño";"Tarifa fija";257.0;"Alquiler";7;11.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";102;5;"Bueno";"No";0.163;"Calefacción eléctrica";"Verano";"Tarifa fija";384.0;"Propiedad";3;17.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";57;1;"Deficiente";"No";0.237;"Electrodomésticos";"Otoño";"Tarifa variable";261.0;"Alquiler";6;12.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";129;1;"Deficiente";"No";0.197;"Aire acondicionado";"Primavera";"Tarifa fija";251.0;"Alquiler";2;24.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";83;5;"Regular";"No";0.175;"Electrodomésticos";"Invierno";"Tarifa fija";388.0;"Propiedad";17;12.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";73;5;"Deficiente";"No";0.185;"Calefacción eléctrica";"Invierno";"Tarifa fija";239.0;"Propiedad";12;17.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";113;4;"Regular";"Sí";0.298;"Electrodomésticos";"Otoño";"Tarifa variable";365.0;"Alquiler";12;15.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";101;3;"Regular";"No";0.237;"Calefacción eléctrica";"Verano";"Tarifa fija";370.0;"Alquiler";17;19.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";139;1;"Regular";"Sí";0.188;"Aire acondicionado";"Primavera";"Tarifa variable";262.0;"Alquiler";10;11.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";53;3;"Regular";"Sí";0.131;"Electrodomésticos";"Invierno";"Tarifa variable";346.0;"Alquiler";3;16.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";134;3;"Bueno";"Sí";0.189;"Aire acondicionado";"Invierno";"Tarifa fija";249.0;"Propiedad";18;14.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";87;5;"Regular";"Sí";0.255;"Calefacción eléctrica";"Verano";"Tarifa variable";360.0;"Propiedad";13;23.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";54;4;"Deficiente";"No";0.205;"Calefacción eléctrica";"Verano";"Tarifa fija";340.0;"Alquiler";12;10.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";111;2;"Bueno";"Sí";0.159;"Aire acondicionado";"Primavera";"Tarifa variable";277.0;"Alquiler";17;23.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";117;4;"Deficiente";"No";0.282;"Electrodomésticos";"Otoño";"Tarifa variable";296.0;"Alquiler";4;22.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";126;4;"Bueno";"No";0.232;"Electrodomésticos";"Verano";"Tarifa fija";389.0;"Propiedad";10;14.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";101;3;"Regular";"Sí";0.214;"Calefacción eléctrica";"Otoño";"Tarifa fija";242.0;"Alquiler";11;21.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";79;4;"Bueno";"No";0.273;"Aire acondicionado";"Primavera";"Tarifa fija";376.0;"Alquiler";6;10.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";124;1;"Bueno";"Sí";0.224;"Aire acondicionado";"Otoño";"Tarifa variable";235.0;"Propiedad";6;24.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";119;3;"Deficiente";"Sí";0.202;"Electrodomésticos";"Invierno";"Tarifa variable";321.0;"Propiedad";9;17.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";148;1;"Deficiente";"No";0.236;"Electrodomésticos";"Otoño";"Tarifa fija";307.0;"Alquiler";15;14.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";121;2;"Regular";"No";0.276;"Electrodomésticos";"Primavera";"Tarifa fija";209.0;"Alquiler";2;15.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";92;3;"Bueno";"Sí";0.17;"Aire acondicionado";"Primavera";"Tarifa variable";294.0;"Propiedad";4;10.0;6;6;2;1
+"Hogar_11";2022;"Mayo";260.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";63;2;"Bueno";"No";0.122;"Electrodomésticos";"Primavera";"Tarifa variable";205.0;"Alquiler";5;24.0;7;2;2;2
+"Hogar_12";2021;"Junio";223.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";65;3;"Bueno";"No";0.199;"Electrodomésticos";"Otoño";"Tarifa variable";256.0;"Alquiler";17;10.0;3;3;1;1
+"Hogar_13";2022;"Abril";456.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";128;5;"Regular";"No";0.129;"Calefacción eléctrica";"Invierno";"Tarifa fija";328.0;"Propiedad";8;19.0;8;7;2;1
+"Hogar_14";2021;"Julio";292.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";99;4;"Regular";"Sí";0.149;"Electrodomésticos";"Verano";"Tarifa variable";270.0;"Propiedad";8;16.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";396.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";148;5;"Regular";"Sí";0.259;"Electrodomésticos";"Invierno";"Tarifa fija";385.0;"Propiedad";12;24.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";442.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";80;2;"Regular";"No";0.146;"Aire acondicionado";"Otoño";"Tarifa variable";220.0;"Alquiler";8;13.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";68;4;"Regular";"No";0.253;"Aire acondicionado";"Otoño";"Tarifa variable";291.0;"Propiedad";19;17.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";54;3;"Deficiente";"No";0.127;"Calefacción eléctrica";"Verano";"Tarifa fija";326.0;"Propiedad";3;17.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";84;4;"Bueno";"No";0.175;"Electrodomésticos";"Otoño";"Tarifa fija";279.0;"Alquiler";18;20.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";104;1;"Bueno";"No";0.197;"Calefacción eléctrica";"Primavera";"Tarifa fija";255.0;"Alquiler";19;11.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";128;4;"Bueno";"Sí";0.157;"Aire acondicionado";"Primavera";"Tarifa variable";315.0;"Propiedad";19;12.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";110;1;"Bueno";"No";0.294;"Calefacción eléctrica";"Primavera";"Tarifa variable";347.0;"Propiedad";15;13.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";48;4;"Bueno";"Sí";0.299;"Aire acondicionado";"Primavera";"Tarifa variable";381.0;"Alquiler";6;21.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";127;1;"Bueno";"No";0.113;"Calefacción eléctrica";"Primavera";"Tarifa fija";224.0;"Alquiler";16;12.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";40;2;"Bueno";"Sí";0.167;"Calefacción eléctrica";"Otoño";"Tarifa variable";355.0;"Propiedad";8;18.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";147;5;"Bueno";"No";0.197;"Electrodomésticos";"Verano";"Tarifa fija";204.0;"Propiedad";16;13.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";47;3;"Deficiente";"Sí";0.184;"Calefacción eléctrica";"Verano";"Tarifa fija";319.0;"Alquiler";18;22.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";127;4;"Bueno";"No";0.231;"Electrodomésticos";"Primavera";"Tarifa fija";220.0;"Propiedad";16;24.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";102;5;"Deficiente";"Sí";0.299;"Electrodomésticos";"Otoño";"Tarifa variable";217.0;"Alquiler";11;17.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";50;3;"Regular";"Sí";0.106;"Electrodomésticos";"Invierno";"Tarifa variable";374.0;"Propiedad";7;15.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";120;3;"Bueno";"Sí";0.13;"Electrodomésticos";"Invierno";"Tarifa fija";397.0;"Alquiler";17;13.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";47;1;"Regular";"Sí";0.235;"Calefacción eléctrica";"Otoño";"Tarifa variable";256.0;"Alquiler";17;10.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";74;2;"Regular";"Sí";0.284;"Aire acondicionado";"Primavera";"Tarifa fija";292.0;"Propiedad";12;14.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";74;2;"Regular";"Sí";0.213;"Aire acondicionado";"Verano";"Tarifa fija";218.0;"Propiedad";13;19.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";72;5;"Deficiente";"No";0.115;"Aire acondicionado";"Otoño";"Tarifa variable";327.0;"Alquiler";10;18.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";44;2;"Regular";"Sí";0.234;"Calefacción eléctrica";"Invierno";"Tarifa fija";296.0;"Propiedad";7;24.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";145;4;"Regular";"No";0.126;"Electrodomésticos";"Invierno";"Tarifa fija";392.0;"Propiedad";14;15.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";142;2;"Regular";"No";0.228;"Aire acondicionado";"Invierno";"Tarifa variable";330.0;"Propiedad";1;20.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";80;5;"Bueno";"No";0.26;"Calefacción eléctrica";"Primavera";"Tarifa fija";369.0;"Alquiler";17;17.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";67;2;"Bueno";"No";0.118;"Electrodomésticos";"Invierno";"Tarifa fija";220.0;"Propiedad";4;17.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";46;4;"Deficiente";"No";0.11;"Aire acondicionado";"Otoño";"Tarifa fija";239.0;"Propiedad";5;14.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";112;1;"Deficiente";"Sí";0.297;"Electrodomésticos";"Otoño";"Tarifa fija";266.0;"Alquiler";7;16.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";111;5;"Bueno";"Sí";0.252;"Aire acondicionado";"Invierno";"Tarifa fija";352.0;"Propiedad";10;17.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";51;1;"Deficiente";"Sí";0.272;"Aire acondicionado";"Otoño";"Tarifa fija";326.0;"Propiedad";17;20.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";73;1;"Bueno";"No";0.104;"Aire acondicionado";"Invierno";"Tarifa fija";254.0;"Alquiler";7;24.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";72;1;"Regular";"Sí";0.204;"Electrodomésticos";"Invierno";"Tarifa variable";379.0;"Alquiler";1;14.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";87;3;"Regular";"Sí";0.208;"Calefacción eléctrica";"Verano";"Tarifa variable";371.0;"Propiedad";7;10.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";62;3;"Deficiente";"Sí";0.13;"Electrodomésticos";"Primavera";"Tarifa fija";308.0;"Propiedad";11;17.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";101;1;"Bueno";"Sí";0.123;"Aire acondicionado";"Primavera";"Tarifa fija";297.0;"Alquiler";9;18.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";127;5;"Bueno";"Sí";0.126;"Electrodomésticos";"Verano";"Tarifa variable";383.0;"Alquiler";12;12.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";76;4;"Deficiente";"No";0.159;"Calefacción eléctrica";"Verano";"Tarifa variable";382.0;"Propiedad";3;21.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";138;4;"Bueno";"Sí";0.119;"Electrodomésticos";"Primavera";"Tarifa variable";311.0;"Propiedad";4;24.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";83;2;"Regular";"No";0.218;"Calefacción eléctrica";"Invierno";"Tarifa variable";397.0;"Propiedad";4;24.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";143;5;"Deficiente";"No";0.233;"Calefacción eléctrica";"Invierno";"Tarifa variable";314.0;"Alquiler";13;12.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";125;3;"Deficiente";"No";0.212;"Electrodomésticos";"Primavera";"Tarifa fija";316.0;"Propiedad";19;23.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";130;1;"Bueno";"No";0.26;"Aire acondicionado";"Invierno";"Tarifa variable";286.0;"Alquiler";10;20.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";74;2;"Deficiente";"No";0.166;"Calefacción eléctrica";"Verano";"Tarifa variable";280.0;"Alquiler";5;16.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";104;4;"Bueno";"Sí";0.149;"Electrodomésticos";"Invierno";"Tarifa variable";265.0;"Alquiler";7;18.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";138;3;"Bueno";"Sí";0.146;"Calefacción eléctrica";"Invierno";"Tarifa fija";218.0;"Propiedad";16;22.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";140;3;"Bueno";"Sí";0.185;"Aire acondicionado";"Otoño";"Tarifa fija";334.0;"Propiedad";1;17.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";86;1;"Bueno";"No";0.184;"Electrodomésticos";"Otoño";"Tarifa fija";317.0;"Propiedad";12;15.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";117;4;"Bueno";"Sí";0.268;"Electrodomésticos";"Otoño";"Tarifa fija";390.0;"Alquiler";2;17.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";42;5;"Deficiente";"Sí";0.285;"Electrodomésticos";"Invierno";"Tarifa fija";241.0;"Propiedad";7;18.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";40;3;"Regular";"No";0.122;"Aire acondicionado";"Primavera";"Tarifa fija";241.0;"Alquiler";11;12.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";44;1;"Regular";"No";0.253;"Calefacción eléctrica";"Verano";"Tarifa variable";258.0;"Alquiler";13;23.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";129;5;"Deficiente";"No";0.201;"Electrodomésticos";"Invierno";"Tarifa fija";219.0;"Alquiler";2;20.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";53;4;"Deficiente";"No";0.147;"Calefacción eléctrica";"Primavera";"Tarifa fija";272.0;"Alquiler";7;19.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";142;3;"Regular";"Sí";0.232;"Calefacción eléctrica";"Invierno";"Tarifa variable";216.0;"Alquiler";15;11.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";66;5;"Regular";"No";0.219;"Aire acondicionado";"Verano";"Tarifa fija";226.0;"Alquiler";11;19.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";48;5;"Regular";"No";0.3;"Electrodomésticos";"Invierno";"Tarifa variable";374.0;"Propiedad";2;11.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";118;5;"Regular";"Sí";0.141;"Calefacción eléctrica";"Verano";"Tarifa variable";201.0;"Alquiler";7;11.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";54;3;"Regular";"Sí";0.105;"Electrodomésticos";"Invierno";"Tarifa fija";262.0;"Propiedad";4;17.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";129;3;"Bueno";"No";0.202;"Electrodomésticos";"Verano";"Tarifa variable";261.0;"Alquiler";11;16.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";81;2;"Deficiente";"Sí";0.197;"Aire acondicionado";"Invierno";"Tarifa variable";299.0;"Propiedad";2;18.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";116;4;"Bueno";"No";0.279;"Electrodomésticos";"Verano";"Tarifa variable";218.0;"Propiedad";16;11.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";90;1;"Regular";"No";0.103;"Electrodomésticos";"Otoño";"Tarifa variable";216.0;"Propiedad";7;16.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";102;5;"Regular";"Sí";0.18;"Calefacción eléctrica";"Invierno";"Tarifa fija";268.0;"Propiedad";13;12.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";135;2;"Regular";"Sí";0.288;"Aire acondicionado";"Invierno";"Tarifa variable";366.0;"Alquiler";5;24.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";142;1;"Bueno";"No";0.202;"Electrodomésticos";"Primavera";"Tarifa fija";316.0;"Alquiler";17;18.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";91;2;"Bueno";"No";0.246;"Calefacción eléctrica";"Primavera";"Tarifa variable";398.0;"Alquiler";12;20.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";135;3;"Regular";"No";0.121;"Aire acondicionado";"Verano";"Tarifa variable";280.0;"Alquiler";19;14.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";43;5;"Bueno";"Sí";0.171;"Aire acondicionado";"Invierno";"Tarifa variable";238.0;"Propiedad";7;11.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";133;1;"Bueno";"No";0.19;"Calefacción eléctrica";"Verano";"Tarifa fija";235.0;"Propiedad";6;24.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";140;1;"Regular";"No";0.137;"Calefacción eléctrica";"Otoño";"Tarifa fija";367.0;"Propiedad";8;14.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";62;1;"Bueno";"No";0.214;"Calefacción eléctrica";"Primavera";"Tarifa fija";372.0;"Alquiler";13;16.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";142;1;"Deficiente";"No";0.159;"Calefacción eléctrica";"Verano";"Tarifa variable";331.0;"Propiedad";5;19.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";148;1;"Deficiente";"No";0.254;"Calefacción eléctrica";"Verano";"Tarifa variable";352.0;"Alquiler";2;10.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";54;2;"Deficiente";"Sí";0.294;"Electrodomésticos";"Primavera";"Tarifa variable";396.0;"Propiedad";9;22.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";82;5;"Deficiente";"No";0.205;"Electrodomésticos";"Invierno";"Tarifa variable";357.0;"Propiedad";11;18.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";68;3;"Regular";"No";0.246;"Aire acondicionado";"Verano";"Tarifa fija";395.0;"Propiedad";6;14.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";75;3;"Regular";"No";0.116;"Electrodomésticos";"Primavera";"Tarifa variable";228.0;"Propiedad";7;10.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";52;3;"Regular";"No";0.141;"Electrodomésticos";"Invierno";"Tarifa fija";395.0;"Propiedad";7;12.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";71;3;"Deficiente";"Sí";0.256;"Electrodomésticos";"Otoño";"Tarifa variable";250.0;"Alquiler";19;23.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";110;2;"Deficiente";"Sí";0.158;"Calefacción eléctrica";"Primavera";"Tarifa fija";351.0;"Propiedad";6;20.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";98;4;"Bueno";"Sí";0.12;"Aire acondicionado";"Verano";"Tarifa fija";213.0;"Alquiler";11;13.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";125;5;"Bueno";"No";0.227;"Aire acondicionado";"Otoño";"Tarifa variable";268.0;"Alquiler";11;10.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";67;1;"Deficiente";"No";0.274;"Aire acondicionado";"Invierno";"Tarifa variable";345.0;"Alquiler";7;20.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";105;4;"Deficiente";"Sí";0.19;"Aire acondicionado";"Invierno";"Tarifa fija";369.0;"Alquiler";2;18.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";81;3;"Deficiente";"Sí";0.229;"Electrodomésticos";"Primavera";"Tarifa variable";256.0;"Alquiler";19;16.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";84;4;"Deficiente";"Sí";0.275;"Electrodomésticos";"Primavera";"Tarifa variable";211.0;"Alquiler";4;15.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";101;5;"Bueno";"No";0.188;"Calefacción eléctrica";"Primavera";"Tarifa fija";216.0;"Alquiler";6;13.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";96;1;"Deficiente";"No";0.214;"Aire acondicionado";"Invierno";"Tarifa fija";229.0;"Alquiler";17;20.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";45;1;"Bueno";"Sí";0.206;"Electrodomésticos";"Otoño";"Tarifa fija";287.0;"Propiedad";5;24.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";67;5;"Deficiente";"Sí";0.29;"Electrodomésticos";"Invierno";"Tarifa fija";298.0;"Propiedad";7;12.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";67;5;"Deficiente";"Sí";0.13;"Calefacción eléctrica";"Verano";"Tarifa variable";222.0;"Alquiler";9;18.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";147;3;"Deficiente";"No";0.282;"Calefacción eléctrica";"Invierno";"Tarifa fija";328.0;"Alquiler";1;16.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";83;1;"Bueno";"No";0.118;"Calefacción eléctrica";"Verano";"Tarifa fija";278.0;"Alquiler";1;16.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";123;4;"Bueno";"No";0.247;"Electrodomésticos";"Otoño";"Tarifa fija";231.0;"Propiedad";19;13.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";69;2;"Regular";"Sí";0.178;"Electrodomésticos";"Primavera";"Tarifa variable";208.0;"Propiedad";6;22.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";101;2;"Deficiente";"Sí";0.248;"Calefacción eléctrica";"Primavera";"Tarifa fija";214.0;"Alquiler";18;17.0;6;6;2;1
+"Hogar_11";2022;"Mayo";368.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";114;5;"Regular";"No";0.208;"Aire acondicionado";"Invierno";"Tarifa variable";355.0;"Alquiler";10;18.0;7;2;2;2
+"Hogar_12";2021;"Junio";431.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";131;3;"Regular";"Sí";0.196;"Calefacción eléctrica";"Primavera";"Tarifa fija";351.0;"Propiedad";11;14.0;3;3;1;1
+"Hogar_13";2022;"Abril";473.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";128;2;"Bueno";"No";0.257;"Calefacción eléctrica";"Otoño";"Tarifa fija";387.0;"Propiedad";1;12.0;8;7;2;1
+"Hogar_14";2021;"Julio";378.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";142;1;"Bueno";"Sí";0.197;"Calefacción eléctrica";"Primavera";"Tarifa variable";362.0;"Alquiler";1;11.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";343.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";101;5;"Regular";"Sí";0.115;"Calefacción eléctrica";"Invierno";"Tarifa fija";226.0;"Alquiler";13;20.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";477.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";136;4;"Deficiente";"Sí";0.284;"Electrodomésticos";"Otoño";"Tarifa fija";308.0;"Alquiler";5;12.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";40;5;"Bueno";"Sí";0.176;"Aire acondicionado";"Verano";"Tarifa variable";275.0;"Alquiler";1;20.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";66;4;"Deficiente";"No";0.127;"Calefacción eléctrica";"Invierno";"Tarifa fija";347.0;"Propiedad";3;15.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";101;5;"Deficiente";"Sí";0.205;"Aire acondicionado";"Verano";"Tarifa fija";264.0;"Propiedad";18;16.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";116;5;"Regular";"No";0.146;"Aire acondicionado";"Otoño";"Tarifa fija";376.0;"Alquiler";9;17.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";144;5;"Regular";"No";0.213;"Aire acondicionado";"Invierno";"Tarifa fija";308.0;"Alquiler";14;15.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";42;4;"Regular";"No";0.129;"Calefacción eléctrica";"Invierno";"Tarifa variable";328.0;"Alquiler";17;11.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";142;4;"Regular";"Sí";0.107;"Electrodomésticos";"Otoño";"Tarifa fija";209.0;"Propiedad";14;14.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";109;5;"Bueno";"No";0.245;"Calefacción eléctrica";"Primavera";"Tarifa variable";246.0;"Alquiler";4;19.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";111;2;"Bueno";"No";0.206;"Aire acondicionado";"Invierno";"Tarifa fija";322.0;"Alquiler";5;19.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";66;3;"Regular";"No";0.194;"Aire acondicionado";"Invierno";"Tarifa variable";258.0;"Alquiler";17;14.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";48;3;"Bueno";"Sí";0.251;"Electrodomésticos";"Verano";"Tarifa fija";295.0;"Propiedad";2;16.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";101;3;"Regular";"Sí";0.175;"Calefacción eléctrica";"Primavera";"Tarifa variable";389.0;"Alquiler";5;12.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";76;4;"Deficiente";"No";0.221;"Aire acondicionado";"Verano";"Tarifa fija";302.0;"Propiedad";4;13.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";136;4;"Deficiente";"Sí";0.28;"Electrodomésticos";"Verano";"Tarifa variable";323.0;"Alquiler";4;10.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";90;2;"Deficiente";"No";0.236;"Aire acondicionado";"Primavera";"Tarifa variable";285.0;"Alquiler";6;23.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";145;3;"Regular";"No";0.242;"Electrodomésticos";"Primavera";"Tarifa fija";345.0;"Alquiler";13;13.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";83;3;"Deficiente";"Sí";0.201;"Electrodomésticos";"Otoño";"Tarifa variable";311.0;"Propiedad";5;13.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";63;5;"Bueno";"No";0.178;"Calefacción eléctrica";"Primavera";"Tarifa fija";373.0;"Alquiler";7;14.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";118;4;"Deficiente";"Sí";0.186;"Aire acondicionado";"Invierno";"Tarifa fija";359.0;"Alquiler";1;11.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";98;3;"Deficiente";"Sí";0.299;"Calefacción eléctrica";"Primavera";"Tarifa fija";226.0;"Propiedad";14;19.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";71;2;"Deficiente";"No";0.235;"Aire acondicionado";"Otoño";"Tarifa fija";217.0;"Propiedad";4;11.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";135;2;"Bueno";"Sí";0.179;"Calefacción eléctrica";"Otoño";"Tarifa fija";366.0;"Propiedad";17;12.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";127;3;"Regular";"Sí";0.292;"Aire acondicionado";"Otoño";"Tarifa variable";376.0;"Alquiler";14;19.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";144;4;"Bueno";"No";0.22;"Calefacción eléctrica";"Primavera";"Tarifa fija";281.0;"Propiedad";16;15.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";91;2;"Regular";"No";0.126;"Electrodomésticos";"Primavera";"Tarifa fija";371.0;"Alquiler";14;20.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";101;5;"Regular";"Sí";0.268;"Aire acondicionado";"Verano";"Tarifa fija";271.0;"Propiedad";16;18.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";97;2;"Deficiente";"Sí";0.265;"Aire acondicionado";"Verano";"Tarifa fija";253.0;"Propiedad";8;13.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";91;1;"Regular";"No";0.217;"Electrodomésticos";"Invierno";"Tarifa fija";361.0;"Propiedad";3;19.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";51;1;"Bueno";"Sí";0.194;"Calefacción eléctrica";"Verano";"Tarifa fija";270.0;"Alquiler";19;11.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";78;4;"Bueno";"Sí";0.216;"Aire acondicionado";"Invierno";"Tarifa variable";363.0;"Alquiler";1;18.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";41;3;"Regular";"Sí";0.201;"Aire acondicionado";"Otoño";"Tarifa variable";345.0;"Alquiler";2;16.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";42;4;"Deficiente";"Sí";0.255;"Calefacción eléctrica";"Verano";"Tarifa fija";237.0;"Alquiler";15;14.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";140;4;"Deficiente";"Sí";0.171;"Electrodomésticos";"Primavera";"Tarifa variable";386.0;"Alquiler";10;19.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";95;4;"Bueno";"Sí";0.193;"Calefacción eléctrica";"Verano";"Tarifa fija";336.0;"Alquiler";18;23.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";120;4;"Deficiente";"Sí";0.151;"Calefacción eléctrica";"Invierno";"Tarifa fija";399.0;"Alquiler";14;24.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";98;5;"Regular";"No";0.277;"Calefacción eléctrica";"Verano";"Tarifa fija";378.0;"Alquiler";17;19.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";41;5;"Regular";"No";0.23;"Aire acondicionado";"Otoño";"Tarifa fija";234.0;"Alquiler";13;16.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";41;2;"Bueno";"No";0.218;"Electrodomésticos";"Primavera";"Tarifa fija";281.0;"Propiedad";1;13.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";131;1;"Regular";"No";0.1;"Electrodomésticos";"Invierno";"Tarifa variable";332.0;"Propiedad";5;13.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";93;4;"Bueno";"No";0.148;"Calefacción eléctrica";"Primavera";"Tarifa variable";341.0;"Alquiler";13;17.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";126;2;"Regular";"Sí";0.14;"Aire acondicionado";"Primavera";"Tarifa variable";357.0;"Alquiler";14;15.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";140;1;"Bueno";"Sí";0.156;"Calefacción eléctrica";"Invierno";"Tarifa variable";203.0;"Alquiler";3;23.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";135;3;"Deficiente";"Sí";0.259;"Aire acondicionado";"Primavera";"Tarifa fija";366.0;"Alquiler";15;15.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";136;5;"Regular";"Sí";0.126;"Aire acondicionado";"Primavera";"Tarifa variable";391.0;"Propiedad";19;15.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";40;1;"Regular";"No";0.152;"Aire acondicionado";"Verano";"Tarifa fija";352.0;"Propiedad";17;15.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";58;3;"Bueno";"Sí";0.285;"Aire acondicionado";"Primavera";"Tarifa variable";355.0;"Alquiler";3;22.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";41;1;"Bueno";"Sí";0.268;"Electrodomésticos";"Primavera";"Tarifa variable";393.0;"Propiedad";16;19.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";92;5;"Regular";"No";0.185;"Aire acondicionado";"Primavera";"Tarifa variable";349.0;"Propiedad";14;19.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";83;5;"Bueno";"Sí";0.22;"Aire acondicionado";"Primavera";"Tarifa variable";358.0;"Alquiler";12;15.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";129;2;"Regular";"Sí";0.245;"Calefacción eléctrica";"Invierno";"Tarifa fija";222.0;"Alquiler";12;22.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";71;4;"Deficiente";"No";0.264;"Calefacción eléctrica";"Otoño";"Tarifa variable";247.0;"Alquiler";11;10.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";109;1;"Bueno";"Sí";0.288;"Electrodomésticos";"Verano";"Tarifa variable";347.0;"Alquiler";17;23.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";71;1;"Regular";"Sí";0.147;"Calefacción eléctrica";"Primavera";"Tarifa fija";324.0;"Propiedad";8;17.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";107;3;"Deficiente";"Sí";0.171;"Aire acondicionado";"Primavera";"Tarifa fija";365.0;"Alquiler";17;15.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";94;5;"Deficiente";"Sí";0.114;"Calefacción eléctrica";"Invierno";"Tarifa variable";254.0;"Propiedad";11;17.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";114;1;"Regular";"Sí";0.156;"Electrodomésticos";"Otoño";"Tarifa fija";267.0;"Alquiler";2;20.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";95;5;"Bueno";"No";0.141;"Calefacción eléctrica";"Primavera";"Tarifa fija";287.0;"Propiedad";10;10.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";56;1;"Regular";"No";0.134;"Calefacción eléctrica";"Invierno";"Tarifa fija";200.0;"Alquiler";10;23.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";77;2;"Deficiente";"No";0.148;"Electrodomésticos";"Verano";"Tarifa variable";334.0;"Alquiler";11;16.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";63;4;"Regular";"No";0.237;"Electrodomésticos";"Verano";"Tarifa fija";384.0;"Propiedad";6;15.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";108;1;"Bueno";"No";0.24;"Aire acondicionado";"Primavera";"Tarifa variable";294.0;"Propiedad";4;12.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";137;5;"Deficiente";"No";0.189;"Calefacción eléctrica";"Primavera";"Tarifa variable";339.0;"Propiedad";12;16.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";109;2;"Regular";"Sí";0.125;"Aire acondicionado";"Otoño";"Tarifa variable";305.0;"Alquiler";11;17.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";125;1;"Bueno";"No";0.159;"Calefacción eléctrica";"Otoño";"Tarifa variable";332.0;"Propiedad";13;16.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";50;3;"Deficiente";"No";0.12;"Calefacción eléctrica";"Primavera";"Tarifa fija";307.0;"Propiedad";5;20.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";55;4;"Bueno";"Sí";0.224;"Aire acondicionado";"Invierno";"Tarifa variable";377.0;"Propiedad";6;16.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";136;1;"Deficiente";"Sí";0.259;"Calefacción eléctrica";"Otoño";"Tarifa fija";241.0;"Propiedad";1;24.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";112;2;"Regular";"No";0.123;"Calefacción eléctrica";"Primavera";"Tarifa variable";301.0;"Propiedad";6;18.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";98;3;"Bueno";"Sí";0.137;"Calefacción eléctrica";"Otoño";"Tarifa fija";323.0;"Propiedad";18;22.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";109;2;"Deficiente";"No";0.215;"Electrodomésticos";"Primavera";"Tarifa variable";339.0;"Propiedad";9;11.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";119;2;"Bueno";"Sí";0.164;"Aire acondicionado";"Verano";"Tarifa fija";302.0;"Propiedad";15;15.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";132;3;"Bueno";"No";0.274;"Electrodomésticos";"Primavera";"Tarifa variable";345.0;"Propiedad";8;15.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";42;2;"Regular";"Sí";0.178;"Aire acondicionado";"Verano";"Tarifa variable";393.0;"Alquiler";19;18.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";59;3;"Bueno";"Sí";0.17;"Aire acondicionado";"Otoño";"Tarifa fija";273.0;"Alquiler";16;22.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";98;1;"Deficiente";"No";0.217;"Calefacción eléctrica";"Primavera";"Tarifa variable";307.0;"Propiedad";6;11.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";75;3;"Deficiente";"No";0.275;"Aire acondicionado";"Otoño";"Tarifa variable";321.0;"Alquiler";6;11.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";58;3;"Deficiente";"No";0.224;"Electrodomésticos";"Verano";"Tarifa variable";216.0;"Alquiler";3;22.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";129;4;"Deficiente";"No";0.194;"Electrodomésticos";"Primavera";"Tarifa fija";395.0;"Propiedad";10;13.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";106;3;"Regular";"No";0.199;"Electrodomésticos";"Otoño";"Tarifa variable";270.0;"Propiedad";1;20.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";58;3;"Bueno";"Sí";0.112;"Aire acondicionado";"Verano";"Tarifa variable";261.0;"Propiedad";14;18.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";59;1;"Regular";"No";0.264;"Electrodomésticos";"Otoño";"Tarifa fija";240.0;"Propiedad";4;22.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";135;4;"Bueno";"No";0.284;"Aire acondicionado";"Invierno";"Tarifa fija";318.0;"Propiedad";12;11.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";110;5;"Bueno";"Sí";0.128;"Electrodomésticos";"Verano";"Tarifa fija";361.0;"Propiedad";6;11.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";91;1;"Bueno";"Sí";0.289;"Electrodomésticos";"Verano";"Tarifa fija";397.0;"Alquiler";11;18.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";144;1;"Regular";"No";0.161;"Aire acondicionado";"Verano";"Tarifa fija";244.0;"Propiedad";12;24.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";72;5;"Bueno";"Sí";0.238;"Electrodomésticos";"Primavera";"Tarifa variable";257.0;"Alquiler";10;16.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";79;3;"Regular";"Sí";0.205;"Calefacción eléctrica";"Primavera";"Tarifa variable";378.0;"Propiedad";18;14.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";78;2;"Deficiente";"No";0.211;"Aire acondicionado";"Primavera";"Tarifa variable";325.0;"Propiedad";7;19.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";121;4;"Deficiente";"Sí";0.142;"Aire acondicionado";"Invierno";"Tarifa fija";361.0;"Alquiler";7;23.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";143;2;"Bueno";"Sí";0.177;"Aire acondicionado";"Invierno";"Tarifa variable";243.0;"Propiedad";11;22.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";40;5;"Regular";"No";0.16;"Calefacción eléctrica";"Verano";"Tarifa fija";214.0;"Propiedad";4;24.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";50;1;"Deficiente";"No";0.167;"Aire acondicionado";"Invierno";"Tarifa fija";277.0;"Alquiler";1;10.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";131;1;"Regular";"Sí";0.256;"Electrodomésticos";"Otoño";"Tarifa variable";269.0;"Propiedad";13;11.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";96;4;"Regular";"Sí";0.278;"Electrodomésticos";"Verano";"Tarifa fija";377.0;"Alquiler";18;19.0;6;6;2;1
+"Hogar_11";2022;"Mayo";281.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";128;1;"Bueno";"No";0.122;"Electrodomésticos";"Verano";"Tarifa fija";300.0;"Propiedad";9;22.0;7;2;2;2
+"Hogar_12";2021;"Junio";130.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";89;1;"Deficiente";"Sí";0.275;"Aire acondicionado";"Otoño";"Tarifa variable";359.0;"Propiedad";9;14.0;3;3;1;1
+"Hogar_13";2022;"Abril";392.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";62;4;"Bueno";"Sí";0.11;"Electrodomésticos";"Verano";"Tarifa fija";394.0;"Alquiler";9;13.0;8;7;2;1
+"Hogar_14";2021;"Julio";135.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";70;4;"Bueno";"Sí";0.223;"Aire acondicionado";"Invierno";"Tarifa fija";202.0;"Propiedad";10;21.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";260.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";133;5;"Deficiente";"No";0.288;"Electrodomésticos";"Primavera";"Tarifa variable";285.0;"Alquiler";2;10.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";256.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";81;1;"Deficiente";"Sí";0.27;"Calefacción eléctrica";"Otoño";"Tarifa fija";273.0;"Alquiler";6;15.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";138;1;"Regular";"Sí";0.187;"Calefacción eléctrica";"Invierno";"Tarifa fija";250.0;"Alquiler";15;17.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";46;5;"Deficiente";"No";0.225;"Calefacción eléctrica";"Otoño";"Tarifa variable";266.0;"Propiedad";3;18.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";55;3;"Regular";"Sí";0.262;"Calefacción eléctrica";"Otoño";"Tarifa variable";275.0;"Propiedad";11;20.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";129;3;"Regular";"Sí";0.137;"Aire acondicionado";"Verano";"Tarifa variable";292.0;"Alquiler";6;15.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";99;3;"Regular";"No";0.2;"Electrodomésticos";"Verano";"Tarifa variable";375.0;"Propiedad";3;19.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";41;5;"Deficiente";"No";0.288;"Calefacción eléctrica";"Invierno";"Tarifa fija";344.0;"Propiedad";11;18.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";40;1;"Bueno";"No";0.141;"Aire acondicionado";"Otoño";"Tarifa fija";206.0;"Propiedad";15;18.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";87;5;"Regular";"No";0.138;"Calefacción eléctrica";"Verano";"Tarifa variable";212.0;"Alquiler";13;19.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";51;5;"Bueno";"Sí";0.17;"Calefacción eléctrica";"Verano";"Tarifa fija";319.0;"Propiedad";10;13.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";108;3;"Bueno";"Sí";0.136;"Aire acondicionado";"Otoño";"Tarifa fija";265.0;"Alquiler";6;11.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";76;2;"Deficiente";"No";0.27;"Aire acondicionado";"Invierno";"Tarifa variable";203.0;"Propiedad";15;11.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";71;1;"Bueno";"No";0.243;"Electrodomésticos";"Invierno";"Tarifa variable";337.0;"Propiedad";18;13.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";48;3;"Bueno";"Sí";0.105;"Electrodomésticos";"Otoño";"Tarifa fija";287.0;"Alquiler";18;17.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";144;2;"Deficiente";"No";0.293;"Calefacción eléctrica";"Invierno";"Tarifa variable";216.0;"Propiedad";7;22.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";138;2;"Regular";"Sí";0.252;"Calefacción eléctrica";"Verano";"Tarifa variable";251.0;"Alquiler";15;20.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";58;4;"Bueno";"No";0.282;"Electrodomésticos";"Otoño";"Tarifa variable";333.0;"Propiedad";18;21.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";87;1;"Deficiente";"Sí";0.154;"Electrodomésticos";"Verano";"Tarifa fija";268.0;"Alquiler";18;15.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";119;2;"Bueno";"No";0.224;"Aire acondicionado";"Primavera";"Tarifa variable";336.0;"Propiedad";9;16.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";42;3;"Bueno";"No";0.157;"Electrodomésticos";"Primavera";"Tarifa fija";220.0;"Propiedad";2;15.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";59;4;"Regular";"Sí";0.212;"Electrodomésticos";"Invierno";"Tarifa fija";223.0;"Propiedad";8;12.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";63;1;"Bueno";"No";0.291;"Calefacción eléctrica";"Primavera";"Tarifa fija";203.0;"Alquiler";2;10.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";93;5;"Deficiente";"Sí";0.119;"Electrodomésticos";"Verano";"Tarifa variable";351.0;"Alquiler";11;18.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";72;3;"Bueno";"Sí";0.221;"Calefacción eléctrica";"Primavera";"Tarifa variable";386.0;"Alquiler";7;24.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";63;2;"Regular";"Sí";0.25;"Electrodomésticos";"Verano";"Tarifa variable";202.0;"Propiedad";6;12.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";114;2;"Regular";"Sí";0.287;"Aire acondicionado";"Invierno";"Tarifa variable";267.0;"Alquiler";10;10.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";111;3;"Deficiente";"Sí";0.186;"Electrodomésticos";"Invierno";"Tarifa variable";300.0;"Alquiler";5;21.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";75;2;"Regular";"No";0.169;"Electrodomésticos";"Verano";"Tarifa fija";367.0;"Alquiler";11;13.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";77;4;"Bueno";"No";0.187;"Electrodomésticos";"Primavera";"Tarifa fija";375.0;"Alquiler";1;22.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";143;1;"Regular";"Sí";0.125;"Calefacción eléctrica";"Invierno";"Tarifa fija";253.0;"Alquiler";2;20.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";123;4;"Deficiente";"No";0.167;"Aire acondicionado";"Otoño";"Tarifa variable";234.0;"Alquiler";1;24.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";138;2;"Regular";"Sí";0.159;"Electrodomésticos";"Invierno";"Tarifa fija";255.0;"Alquiler";19;16.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";128;5;"Regular";"No";0.193;"Calefacción eléctrica";"Primavera";"Tarifa fija";307.0;"Alquiler";2;19.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";138;1;"Regular";"No";0.189;"Aire acondicionado";"Otoño";"Tarifa variable";239.0;"Alquiler";4;16.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";64;1;"Deficiente";"No";0.266;"Calefacción eléctrica";"Primavera";"Tarifa variable";267.0;"Alquiler";12;19.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";132;3;"Regular";"No";0.261;"Calefacción eléctrica";"Verano";"Tarifa fija";245.0;"Propiedad";18;16.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";57;3;"Regular";"Sí";0.209;"Aire acondicionado";"Otoño";"Tarifa fija";277.0;"Propiedad";1;12.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";149;5;"Bueno";"Sí";0.16;"Electrodomésticos";"Primavera";"Tarifa variable";340.0;"Alquiler";1;17.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";121;1;"Deficiente";"No";0.274;"Calefacción eléctrica";"Otoño";"Tarifa variable";354.0;"Propiedad";14;17.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";105;5;"Regular";"No";0.189;"Calefacción eléctrica";"Primavera";"Tarifa variable";205.0;"Propiedad";4;22.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";93;3;"Deficiente";"Sí";0.222;"Electrodomésticos";"Otoño";"Tarifa variable";216.0;"Alquiler";5;21.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";74;3;"Regular";"No";0.245;"Electrodomésticos";"Primavera";"Tarifa fija";363.0;"Alquiler";11;19.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";119;1;"Regular";"Sí";0.258;"Aire acondicionado";"Verano";"Tarifa fija";298.0;"Alquiler";13;11.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";100;4;"Regular";"Sí";0.255;"Aire acondicionado";"Otoño";"Tarifa variable";280.0;"Propiedad";16;20.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";80;2;"Bueno";"Sí";0.199;"Aire acondicionado";"Otoño";"Tarifa fija";201.0;"Alquiler";13;17.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";139;3;"Bueno";"No";0.132;"Electrodomésticos";"Otoño";"Tarifa fija";276.0;"Propiedad";2;23.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";72;3;"Bueno";"Sí";0.162;"Calefacción eléctrica";"Otoño";"Tarifa variable";379.0;"Alquiler";16;23.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";107;4;"Deficiente";"No";0.116;"Calefacción eléctrica";"Verano";"Tarifa fija";265.0;"Propiedad";6;10.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";72;4;"Deficiente";"Sí";0.195;"Aire acondicionado";"Otoño";"Tarifa fija";251.0;"Propiedad";14;22.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";53;5;"Bueno";"No";0.125;"Electrodomésticos";"Invierno";"Tarifa fija";291.0;"Alquiler";1;10.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";60;5;"Deficiente";"No";0.141;"Calefacción eléctrica";"Verano";"Tarifa variable";370.0;"Alquiler";17;15.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";87;2;"Regular";"No";0.23;"Aire acondicionado";"Invierno";"Tarifa variable";221.0;"Propiedad";11;18.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";59;2;"Regular";"Sí";0.228;"Calefacción eléctrica";"Otoño";"Tarifa fija";310.0;"Propiedad";19;12.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";47;1;"Regular";"Sí";0.15;"Calefacción eléctrica";"Primavera";"Tarifa variable";306.0;"Alquiler";3;21.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";46;5;"Bueno";"No";0.165;"Electrodomésticos";"Invierno";"Tarifa variable";382.0;"Alquiler";11;10.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";106;3;"Deficiente";"No";0.274;"Electrodomésticos";"Otoño";"Tarifa variable";266.0;"Propiedad";5;12.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";56;5;"Bueno";"No";0.176;"Calefacción eléctrica";"Invierno";"Tarifa fija";387.0;"Alquiler";17;18.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";72;3;"Deficiente";"Sí";0.157;"Aire acondicionado";"Otoño";"Tarifa fija";385.0;"Propiedad";7;20.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";87;4;"Regular";"Sí";0.157;"Electrodomésticos";"Otoño";"Tarifa variable";339.0;"Alquiler";10;23.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";115;5;"Bueno";"Sí";0.216;"Calefacción eléctrica";"Otoño";"Tarifa fija";268.0;"Alquiler";11;20.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";98;4;"Deficiente";"Sí";0.108;"Electrodomésticos";"Primavera";"Tarifa fija";283.0;"Alquiler";3;20.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";125;2;"Deficiente";"No";0.191;"Electrodomésticos";"Invierno";"Tarifa fija";302.0;"Propiedad";10;15.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";61;2;"Regular";"No";0.134;"Electrodomésticos";"Verano";"Tarifa fija";238.0;"Alquiler";10;10.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";149;1;"Bueno";"Sí";0.194;"Calefacción eléctrica";"Verano";"Tarifa fija";212.0;"Propiedad";14;11.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";69;5;"Bueno";"Sí";0.267;"Aire acondicionado";"Verano";"Tarifa variable";240.0;"Alquiler";12;18.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";77;4;"Bueno";"No";0.256;"Aire acondicionado";"Verano";"Tarifa fija";256.0;"Propiedad";15;20.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";141;3;"Regular";"Sí";0.176;"Aire acondicionado";"Otoño";"Tarifa fija";380.0;"Propiedad";10;16.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";148;2;"Bueno";"Sí";0.213;"Electrodomésticos";"Invierno";"Tarifa fija";211.0;"Alquiler";10;20.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";90;2;"Regular";"Sí";0.235;"Calefacción eléctrica";"Invierno";"Tarifa variable";212.0;"Propiedad";19;17.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";93;3;"Regular";"Sí";0.239;"Electrodomésticos";"Primavera";"Tarifa variable";319.0;"Propiedad";1;11.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";47;4;"Regular";"Sí";0.189;"Aire acondicionado";"Invierno";"Tarifa variable";296.0;"Propiedad";10;12.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";66;4;"Deficiente";"Sí";0.128;"Aire acondicionado";"Invierno";"Tarifa fija";256.0;"Propiedad";2;22.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";66;5;"Bueno";"No";0.172;"Calefacción eléctrica";"Invierno";"Tarifa variable";239.0;"Alquiler";17;20.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";137;5;"Bueno";"Sí";0.176;"Electrodomésticos";"Primavera";"Tarifa variable";317.0;"Alquiler";7;23.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";60;1;"Regular";"Sí";0.263;"Aire acondicionado";"Verano";"Tarifa variable";279.0;"Alquiler";7;11.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";69;2;"Regular";"No";0.288;"Calefacción eléctrica";"Invierno";"Tarifa variable";327.0;"Propiedad";9;24.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";136;5;"Bueno";"No";0.151;"Electrodomésticos";"Primavera";"Tarifa fija";372.0;"Propiedad";2;13.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";67;4;"Regular";"No";0.19;"Electrodomésticos";"Primavera";"Tarifa variable";234.0;"Alquiler";14;10.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";103;3;"Bueno";"Sí";0.198;"Aire acondicionado";"Otoño";"Tarifa variable";202.0;"Alquiler";17;24.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";136;4;"Deficiente";"No";0.122;"Aire acondicionado";"Primavera";"Tarifa fija";319.0;"Propiedad";1;14.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";108;2;"Regular";"Sí";0.113;"Electrodomésticos";"Verano";"Tarifa fija";204.0;"Alquiler";9;20.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";100;4;"Bueno";"Sí";0.101;"Electrodomésticos";"Invierno";"Tarifa variable";210.0;"Alquiler";19;12.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";87;1;"Regular";"Sí";0.264;"Aire acondicionado";"Primavera";"Tarifa fija";325.0;"Propiedad";4;18.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";58;2;"Bueno";"No";0.12;"Electrodomésticos";"Verano";"Tarifa variable";270.0;"Alquiler";8;23.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";43;3;"Bueno";"No";0.105;"Aire acondicionado";"Primavera";"Tarifa fija";316.0;"Propiedad";13;14.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";74;1;"Regular";"No";0.267;"Electrodomésticos";"Primavera";"Tarifa fija";383.0;"Alquiler";4;20.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";103;2;"Deficiente";"No";0.121;"Aire acondicionado";"Primavera";"Tarifa variable";337.0;"Propiedad";9;12.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";88;3;"Bueno";"No";0.101;"Calefacción eléctrica";"Primavera";"Tarifa fija";305.0;"Propiedad";9;19.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";56;1;"Bueno";"Sí";0.245;"Aire acondicionado";"Primavera";"Tarifa variable";315.0;"Propiedad";18;15.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";83;1;"Bueno";"Sí";0.221;"Aire acondicionado";"Verano";"Tarifa fija";361.0;"Propiedad";12;13.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";131;2;"Deficiente";"Sí";0.271;"Calefacción eléctrica";"Invierno";"Tarifa variable";266.0;"Propiedad";10;14.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";69;5;"Deficiente";"Sí";0.193;"Electrodomésticos";"Invierno";"Tarifa fija";399.0;"Alquiler";11;12.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";132;1;"Regular";"No";0.25;"Calefacción eléctrica";"Invierno";"Tarifa fija";230.0;"Alquiler";7;23.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";85;1;"Deficiente";"No";0.17;"Aire acondicionado";"Invierno";"Tarifa fija";274.0;"Alquiler";9;15.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";45;3;"Regular";"Sí";0.201;"Electrodomésticos";"Verano";"Tarifa fija";270.0;"Propiedad";6;13.0;6;6;2;1
+"Hogar_11";2022;"Mayo";167.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";138;4;"Regular";"No";0.193;"Calefacción eléctrica";"Otoño";"Tarifa fija";265.0;"Alquiler";19;16.0;7;2;2;2
+"Hogar_12";2021;"Junio";282.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";144;2;"Deficiente";"No";0.265;"Electrodomésticos";"Otoño";"Tarifa variable";269.0;"Propiedad";16;14.0;3;3;1;1
+"Hogar_13";2022;"Abril";129.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";76;2;"Regular";"Sí";0.247;"Electrodomésticos";"Verano";"Tarifa fija";240.0;"Propiedad";15;21.0;8;7;2;1
+"Hogar_14";2021;"Julio";100.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";63;5;"Deficiente";"Sí";0.138;"Calefacción eléctrica";"Verano";"Tarifa variable";390.0;"Alquiler";7;24.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";227.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";132;5;"Regular";"No";0.248;"Electrodomésticos";"Primavera";"Tarifa variable";359.0;"Propiedad";16;16.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";258.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";85;2;"Deficiente";"No";0.126;"Calefacción eléctrica";"Primavera";"Tarifa variable";219.0;"Alquiler";5;22.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";92;5;"Deficiente";"Sí";0.187;"Aire acondicionado";"Primavera";"Tarifa fija";384.0;"Propiedad";16;18.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";134;3;"Regular";"Sí";0.259;"Electrodomésticos";"Invierno";"Tarifa variable";377.0;"Propiedad";1;12.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";138;2;"Bueno";"Sí";0.231;"Aire acondicionado";"Primavera";"Tarifa fija";352.0;"Alquiler";19;20.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";99;5;"Regular";"No";0.279;"Aire acondicionado";"Otoño";"Tarifa variable";339.0;"Propiedad";5;17.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";136;2;"Deficiente";"Sí";0.2;"Electrodomésticos";"Invierno";"Tarifa variable";398.0;"Alquiler";7;19.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";102;4;"Bueno";"Sí";0.265;"Calefacción eléctrica";"Primavera";"Tarifa variable";238.0;"Propiedad";19;23.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";124;1;"Regular";"No";0.226;"Electrodomésticos";"Invierno";"Tarifa variable";344.0;"Alquiler";5;16.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";71;2;"Regular";"No";0.234;"Aire acondicionado";"Otoño";"Tarifa variable";244.0;"Propiedad";17;23.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";126;1;"Regular";"No";0.194;"Aire acondicionado";"Primavera";"Tarifa fija";338.0;"Alquiler";8;21.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";72;5;"Bueno";"No";0.166;"Calefacción eléctrica";"Otoño";"Tarifa variable";269.0;"Alquiler";1;17.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";106;1;"Deficiente";"No";0.148;"Electrodomésticos";"Otoño";"Tarifa variable";324.0;"Propiedad";2;19.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";57;2;"Regular";"Sí";0.144;"Aire acondicionado";"Otoño";"Tarifa fija";350.0;"Alquiler";15;14.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";64;4;"Regular";"Sí";0.173;"Aire acondicionado";"Primavera";"Tarifa fija";290.0;"Propiedad";18;24.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";145;5;"Regular";"No";0.134;"Aire acondicionado";"Verano";"Tarifa fija";269.0;"Propiedad";11;20.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";134;2;"Regular";"No";0.25;"Calefacción eléctrica";"Primavera";"Tarifa variable";365.0;"Alquiler";10;10.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";93;5;"Regular";"No";0.151;"Aire acondicionado";"Otoño";"Tarifa variable";329.0;"Alquiler";4;14.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";97;3;"Deficiente";"No";0.102;"Aire acondicionado";"Primavera";"Tarifa variable";283.0;"Alquiler";5;19.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";106;1;"Deficiente";"No";0.16;"Electrodomésticos";"Otoño";"Tarifa variable";288.0;"Alquiler";4;10.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";143;3;"Regular";"Sí";0.193;"Electrodomésticos";"Verano";"Tarifa variable";278.0;"Alquiler";13;10.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";85;2;"Bueno";"Sí";0.187;"Aire acondicionado";"Invierno";"Tarifa variable";312.0;"Propiedad";13;16.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";63;4;"Deficiente";"Sí";0.253;"Aire acondicionado";"Verano";"Tarifa fija";292.0;"Alquiler";18;14.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";71;5;"Bueno";"Sí";0.203;"Electrodomésticos";"Verano";"Tarifa fija";271.0;"Propiedad";2;16.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";86;1;"Deficiente";"No";0.159;"Calefacción eléctrica";"Invierno";"Tarifa variable";364.0;"Alquiler";16;13.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";125;5;"Regular";"Sí";0.286;"Calefacción eléctrica";"Primavera";"Tarifa variable";248.0;"Alquiler";1;12.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";62;2;"Deficiente";"No";0.252;"Calefacción eléctrica";"Invierno";"Tarifa variable";251.0;"Alquiler";19;20.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";105;5;"Regular";"No";0.104;"Calefacción eléctrica";"Primavera";"Tarifa variable";232.0;"Propiedad";9;17.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";66;1;"Deficiente";"No";0.264;"Calefacción eléctrica";"Primavera";"Tarifa variable";221.0;"Alquiler";3;13.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";145;2;"Regular";"Sí";0.107;"Calefacción eléctrica";"Otoño";"Tarifa fija";313.0;"Propiedad";7;14.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";41;5;"Regular";"No";0.241;"Calefacción eléctrica";"Otoño";"Tarifa fija";332.0;"Propiedad";10;18.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";129;4;"Regular";"Sí";0.186;"Calefacción eléctrica";"Invierno";"Tarifa variable";217.0;"Propiedad";1;11.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";56;2;"Regular";"Sí";0.105;"Electrodomésticos";"Verano";"Tarifa fija";365.0;"Alquiler";10;12.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";143;2;"Bueno";"No";0.266;"Calefacción eléctrica";"Invierno";"Tarifa variable";317.0;"Propiedad";9;11.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";72;4;"Regular";"No";0.119;"Calefacción eléctrica";"Primavera";"Tarifa variable";316.0;"Alquiler";15;22.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";48;3;"Bueno";"No";0.293;"Calefacción eléctrica";"Otoño";"Tarifa variable";236.0;"Propiedad";15;21.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";82;1;"Bueno";"Sí";0.211;"Aire acondicionado";"Invierno";"Tarifa fija";263.0;"Alquiler";3;21.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";87;3;"Regular";"No";0.276;"Electrodomésticos";"Invierno";"Tarifa fija";337.0;"Propiedad";5;20.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";78;5;"Bueno";"Sí";0.248;"Electrodomésticos";"Otoño";"Tarifa variable";278.0;"Alquiler";9;20.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";132;4;"Deficiente";"No";0.11;"Electrodomésticos";"Otoño";"Tarifa fija";369.0;"Alquiler";9;17.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";81;3;"Regular";"No";0.109;"Calefacción eléctrica";"Otoño";"Tarifa fija";322.0;"Alquiler";7;19.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";65;2;"Bueno";"Sí";0.111;"Calefacción eléctrica";"Primavera";"Tarifa variable";375.0;"Propiedad";12;10.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";138;5;"Regular";"Sí";0.131;"Aire acondicionado";"Otoño";"Tarifa fija";243.0;"Propiedad";9;19.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";89;5;"Regular";"Sí";0.223;"Electrodomésticos";"Verano";"Tarifa fija";281.0;"Alquiler";6;21.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";64;3;"Regular";"Sí";0.22;"Calefacción eléctrica";"Invierno";"Tarifa variable";286.0;"Propiedad";2;17.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";63;3;"Bueno";"Sí";0.131;"Electrodomésticos";"Otoño";"Tarifa variable";215.0;"Propiedad";9;15.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";52;4;"Deficiente";"Sí";0.294;"Aire acondicionado";"Otoño";"Tarifa fija";253.0;"Propiedad";17;14.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";99;1;"Deficiente";"No";0.179;"Aire acondicionado";"Primavera";"Tarifa variable";301.0;"Propiedad";1;19.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";46;3;"Bueno";"No";0.113;"Aire acondicionado";"Primavera";"Tarifa fija";362.0;"Propiedad";19;20.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";96;3;"Regular";"Sí";0.129;"Electrodomésticos";"Invierno";"Tarifa variable";297.0;"Propiedad";6;23.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";75;2;"Bueno";"No";0.204;"Calefacción eléctrica";"Verano";"Tarifa variable";355.0;"Propiedad";5;15.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";84;5;"Bueno";"Sí";0.136;"Calefacción eléctrica";"Invierno";"Tarifa variable";201.0;"Alquiler";2;21.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";59;1;"Bueno";"No";0.164;"Aire acondicionado";"Otoño";"Tarifa variable";293.0;"Alquiler";9;18.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";104;2;"Regular";"No";0.115;"Calefacción eléctrica";"Verano";"Tarifa fija";340.0;"Propiedad";14;23.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";47;4;"Bueno";"Sí";0.183;"Aire acondicionado";"Verano";"Tarifa variable";368.0;"Alquiler";4;17.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";149;4;"Regular";"Sí";0.267;"Electrodomésticos";"Verano";"Tarifa variable";258.0;"Alquiler";4;17.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";55;3;"Bueno";"Sí";0.289;"Aire acondicionado";"Verano";"Tarifa variable";268.0;"Alquiler";15;18.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";53;3;"Deficiente";"No";0.144;"Electrodomésticos";"Invierno";"Tarifa fija";318.0;"Propiedad";8;21.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";115;4;"Bueno";"Sí";0.153;"Aire acondicionado";"Primavera";"Tarifa fija";291.0;"Propiedad";4;24.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";126;3;"Bueno";"No";0.232;"Calefacción eléctrica";"Primavera";"Tarifa variable";380.0;"Propiedad";16;11.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";54;1;"Deficiente";"Sí";0.2;"Calefacción eléctrica";"Otoño";"Tarifa variable";244.0;"Propiedad";4;10.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";131;3;"Regular";"No";0.203;"Aire acondicionado";"Primavera";"Tarifa variable";347.0;"Propiedad";16;24.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";137;5;"Regular";"No";0.117;"Calefacción eléctrica";"Primavera";"Tarifa variable";223.0;"Alquiler";12;17.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";105;3;"Bueno";"Sí";0.276;"Calefacción eléctrica";"Primavera";"Tarifa variable";388.0;"Propiedad";16;19.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";71;2;"Deficiente";"No";0.129;"Calefacción eléctrica";"Primavera";"Tarifa variable";290.0;"Alquiler";19;17.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";126;1;"Regular";"No";0.118;"Electrodomésticos";"Otoño";"Tarifa fija";293.0;"Propiedad";8;11.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";102;2;"Bueno";"Sí";0.101;"Calefacción eléctrica";"Invierno";"Tarifa variable";257.0;"Alquiler";6;21.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";125;2;"Deficiente";"No";0.251;"Electrodomésticos";"Verano";"Tarifa variable";354.0;"Propiedad";10;21.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";90;5;"Regular";"Sí";0.253;"Aire acondicionado";"Primavera";"Tarifa variable";353.0;"Propiedad";5;14.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";64;1;"Regular";"Sí";0.212;"Calefacción eléctrica";"Invierno";"Tarifa variable";327.0;"Propiedad";18;14.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";97;1;"Deficiente";"Sí";0.201;"Calefacción eléctrica";"Primavera";"Tarifa variable";206.0;"Propiedad";10;22.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";102;1;"Deficiente";"Sí";0.267;"Calefacción eléctrica";"Primavera";"Tarifa variable";369.0;"Propiedad";10;11.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";101;1;"Deficiente";"No";0.235;"Aire acondicionado";"Verano";"Tarifa fija";246.0;"Propiedad";7;23.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";61;1;"Deficiente";"No";0.274;"Electrodomésticos";"Verano";"Tarifa fija";252.0;"Alquiler";18;13.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";97;5;"Bueno";"No";0.164;"Electrodomésticos";"Verano";"Tarifa fija";386.0;"Propiedad";1;18.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";97;3;"Deficiente";"Sí";0.299;"Calefacción eléctrica";"Primavera";"Tarifa fija";237.0;"Alquiler";7;24.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";125;2;"Regular";"No";0.101;"Aire acondicionado";"Primavera";"Tarifa fija";396.0;"Propiedad";1;20.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";88;1;"Regular";"No";0.111;"Aire acondicionado";"Primavera";"Tarifa fija";252.0;"Alquiler";15;16.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";91;3;"Bueno";"Sí";0.149;"Aire acondicionado";"Verano";"Tarifa variable";342.0;"Alquiler";4;20.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";81;3;"Regular";"Sí";0.113;"Aire acondicionado";"Otoño";"Tarifa variable";353.0;"Alquiler";10;15.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";109;2;"Regular";"No";0.218;"Aire acondicionado";"Invierno";"Tarifa variable";247.0;"Alquiler";9;14.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";54;5;"Deficiente";"Sí";0.253;"Electrodomésticos";"Otoño";"Tarifa variable";294.0;"Alquiler";2;24.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";93;4;"Regular";"Sí";0.108;"Electrodomésticos";"Primavera";"Tarifa variable";346.0;"Alquiler";14;21.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";146;4;"Bueno";"Sí";0.284;"Electrodomésticos";"Primavera";"Tarifa variable";336.0;"Propiedad";16;19.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";99;3;"Deficiente";"Sí";0.195;"Calefacción eléctrica";"Otoño";"Tarifa fija";263.0;"Alquiler";1;15.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";140;2;"Deficiente";"No";0.221;"Aire acondicionado";"Primavera";"Tarifa variable";292.0;"Propiedad";2;10.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";136;4;"Bueno";"Sí";0.22;"Calefacción eléctrica";"Invierno";"Tarifa fija";381.0;"Propiedad";7;10.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";47;3;"Deficiente";"Sí";0.139;"Aire acondicionado";"Primavera";"Tarifa fija";324.0;"Alquiler";10;18.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";92;5;"Deficiente";"Sí";0.133;"Electrodomésticos";"Invierno";"Tarifa variable";378.0;"Alquiler";1;21.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";99;4;"Bueno";"Sí";0.15;"Calefacción eléctrica";"Otoño";"Tarifa variable";238.0;"Propiedad";13;18.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";147;3;"Deficiente";"Sí";0.252;"Electrodomésticos";"Otoño";"Tarifa variable";203.0;"Alquiler";1;22.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";147;3;"Bueno";"Sí";0.108;"Aire acondicionado";"Primavera";"Tarifa variable";325.0;"Alquiler";5;10.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";44;1;"Bueno";"Sí";0.284;"Aire acondicionado";"Invierno";"Tarifa variable";202.0;"Alquiler";16;15.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";142;5;"Regular";"Sí";0.196;"Aire acondicionado";"Primavera";"Tarifa variable";263.0;"Alquiler";15;13.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";107;1;"Regular";"No";0.228;"Electrodomésticos";"Verano";"Tarifa variable";228.0;"Alquiler";17;16.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";45;2;"Deficiente";"Sí";0.253;"Aire acondicionado";"Verano";"Tarifa fija";315.0;"Alquiler";16;11.0;6;6;2;1
+"Hogar_11";2022;"Mayo";411.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";148;1;"Deficiente";"No";0.281;"Electrodomésticos";"Verano";"Tarifa variable";210.0;"Alquiler";13;24.0;7;2;2;2
+"Hogar_12";2021;"Junio";263.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";135;1;"Bueno";"Sí";0.147;"Calefacción eléctrica";"Verano";"Tarifa variable";296.0;"Propiedad";11;13.0;3;3;1;1
+"Hogar_13";2022;"Abril";454.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";133;4;"Deficiente";"Sí";0.19;"Aire acondicionado";"Primavera";"Tarifa fija";301.0;"Alquiler";17;23.0;8;7;2;1
+"Hogar_14";2021;"Julio";448.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";86;3;"Bueno";"Sí";0.212;"Aire acondicionado";"Verano";"Tarifa variable";385.0;"Propiedad";17;16.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";310.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";138;5;"Bueno";"Sí";0.188;"Aire acondicionado";"Invierno";"Tarifa variable";354.0;"Propiedad";2;24.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";228.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";94;1;"Deficiente";"No";0.203;"Calefacción eléctrica";"Otoño";"Tarifa fija";220.0;"Propiedad";13;18.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";79;5;"Bueno";"Sí";0.153;"Aire acondicionado";"Otoño";"Tarifa variable";238.0;"Propiedad";14;23.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";91;1;"Regular";"Sí";0.254;"Electrodomésticos";"Verano";"Tarifa variable";301.0;"Alquiler";11;10.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";55;2;"Deficiente";"No";0.11;"Electrodomésticos";"Verano";"Tarifa variable";245.0;"Propiedad";10;21.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";52;1;"Regular";"No";0.289;"Aire acondicionado";"Verano";"Tarifa variable";265.0;"Propiedad";3;23.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";145;4;"Deficiente";"Sí";0.215;"Aire acondicionado";"Primavera";"Tarifa variable";290.0;"Propiedad";17;12.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";69;3;"Bueno";"No";0.106;"Calefacción eléctrica";"Otoño";"Tarifa variable";363.0;"Propiedad";15;11.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";58;2;"Deficiente";"No";0.187;"Calefacción eléctrica";"Verano";"Tarifa fija";310.0;"Propiedad";9;16.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";56;1;"Regular";"No";0.115;"Calefacción eléctrica";"Invierno";"Tarifa variable";281.0;"Alquiler";10;24.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";102;5;"Bueno";"Sí";0.113;"Aire acondicionado";"Verano";"Tarifa variable";322.0;"Alquiler";8;18.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";58;2;"Deficiente";"Sí";0.122;"Calefacción eléctrica";"Otoño";"Tarifa fija";392.0;"Propiedad";13;17.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";131;2;"Deficiente";"Sí";0.171;"Calefacción eléctrica";"Verano";"Tarifa fija";390.0;"Alquiler";18;12.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";97;1;"Deficiente";"No";0.187;"Electrodomésticos";"Otoño";"Tarifa variable";298.0;"Alquiler";5;10.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";94;2;"Regular";"Sí";0.125;"Calefacción eléctrica";"Verano";"Tarifa fija";234.0;"Propiedad";6;22.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";129;5;"Regular";"No";0.162;"Electrodomésticos";"Invierno";"Tarifa variable";358.0;"Propiedad";17;11.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";140;2;"Deficiente";"Sí";0.135;"Electrodomésticos";"Verano";"Tarifa variable";355.0;"Propiedad";11;19.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";129;5;"Bueno";"Sí";0.289;"Calefacción eléctrica";"Invierno";"Tarifa fija";302.0;"Alquiler";16;23.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";101;1;"Bueno";"No";0.141;"Electrodomésticos";"Invierno";"Tarifa variable";328.0;"Propiedad";9;13.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";62;3;"Regular";"Sí";0.137;"Aire acondicionado";"Verano";"Tarifa variable";224.0;"Alquiler";2;19.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";48;2;"Bueno";"No";0.164;"Aire acondicionado";"Invierno";"Tarifa fija";242.0;"Alquiler";5;11.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";51;3;"Regular";"No";0.11;"Calefacción eléctrica";"Primavera";"Tarifa fija";283.0;"Alquiler";1;19.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";40;5;"Deficiente";"Sí";0.155;"Aire acondicionado";"Verano";"Tarifa fija";394.0;"Propiedad";4;12.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";97;2;"Regular";"No";0.148;"Electrodomésticos";"Verano";"Tarifa fija";390.0;"Alquiler";4;21.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";40;4;"Regular";"Sí";0.172;"Aire acondicionado";"Invierno";"Tarifa variable";250.0;"Propiedad";3;14.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";73;3;"Deficiente";"Sí";0.118;"Calefacción eléctrica";"Invierno";"Tarifa fija";329.0;"Propiedad";9;16.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";135;2;"Bueno";"No";0.174;"Calefacción eléctrica";"Verano";"Tarifa fija";325.0;"Propiedad";12;18.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";87;3;"Regular";"Sí";0.215;"Electrodomésticos";"Primavera";"Tarifa fija";391.0;"Propiedad";10;12.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";128;2;"Regular";"No";0.255;"Calefacción eléctrica";"Invierno";"Tarifa fija";268.0;"Propiedad";2;21.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";143;1;"Deficiente";"Sí";0.128;"Aire acondicionado";"Invierno";"Tarifa fija";208.0;"Alquiler";11;14.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";148;3;"Bueno";"Sí";0.175;"Calefacción eléctrica";"Otoño";"Tarifa variable";201.0;"Alquiler";10;19.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";40;4;"Regular";"Sí";0.191;"Electrodomésticos";"Primavera";"Tarifa fija";361.0;"Alquiler";6;12.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";55;4;"Deficiente";"Sí";0.13;"Calefacción eléctrica";"Primavera";"Tarifa variable";387.0;"Alquiler";18;20.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";100;5;"Regular";"Sí";0.179;"Aire acondicionado";"Verano";"Tarifa fija";388.0;"Alquiler";2;11.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";142;2;"Deficiente";"No";0.203;"Electrodomésticos";"Primavera";"Tarifa fija";358.0;"Propiedad";2;16.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";103;3;"Bueno";"No";0.177;"Aire acondicionado";"Verano";"Tarifa fija";209.0;"Propiedad";10;13.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";102;5;"Bueno";"No";0.176;"Electrodomésticos";"Otoño";"Tarifa fija";313.0;"Alquiler";16;21.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";108;3;"Bueno";"No";0.249;"Calefacción eléctrica";"Primavera";"Tarifa fija";275.0;"Alquiler";12;13.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";61;2;"Bueno";"No";0.217;"Electrodomésticos";"Invierno";"Tarifa fija";363.0;"Alquiler";1;23.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";132;4;"Regular";"No";0.238;"Electrodomésticos";"Otoño";"Tarifa fija";284.0;"Propiedad";8;23.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";106;1;"Regular";"Sí";0.24;"Calefacción eléctrica";"Verano";"Tarifa fija";248.0;"Propiedad";16;12.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";115;4;"Bueno";"Sí";0.185;"Aire acondicionado";"Otoño";"Tarifa variable";269.0;"Propiedad";18;19.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";65;5;"Bueno";"No";0.107;"Calefacción eléctrica";"Verano";"Tarifa fija";376.0;"Alquiler";13;11.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";55;1;"Bueno";"No";0.28;"Electrodomésticos";"Otoño";"Tarifa variable";330.0;"Alquiler";15;15.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";90;5;"Regular";"Sí";0.177;"Calefacción eléctrica";"Verano";"Tarifa fija";332.0;"Alquiler";12;20.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";140;2;"Bueno";"Sí";0.146;"Electrodomésticos";"Primavera";"Tarifa variable";388.0;"Alquiler";8;19.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";125;1;"Bueno";"Sí";0.299;"Calefacción eléctrica";"Invierno";"Tarifa fija";289.0;"Propiedad";10;19.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";96;5;"Bueno";"No";0.159;"Calefacción eléctrica";"Verano";"Tarifa fija";225.0;"Alquiler";14;14.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";68;2;"Deficiente";"No";0.196;"Aire acondicionado";"Otoño";"Tarifa fija";271.0;"Alquiler";5;15.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";117;4;"Bueno";"No";0.204;"Electrodomésticos";"Verano";"Tarifa variable";204.0;"Alquiler";18;11.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";131;2;"Deficiente";"Sí";0.13;"Aire acondicionado";"Verano";"Tarifa variable";214.0;"Propiedad";19;20.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";108;3;"Deficiente";"Sí";0.138;"Electrodomésticos";"Verano";"Tarifa variable";322.0;"Propiedad";15;17.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";86;2;"Bueno";"No";0.2;"Calefacción eléctrica";"Otoño";"Tarifa variable";343.0;"Alquiler";6;20.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";133;2;"Deficiente";"No";0.287;"Electrodomésticos";"Invierno";"Tarifa fija";200.0;"Propiedad";11;13.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";149;3;"Bueno";"Sí";0.133;"Aire acondicionado";"Primavera";"Tarifa fija";343.0;"Propiedad";11;14.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";101;5;"Regular";"Sí";0.103;"Aire acondicionado";"Invierno";"Tarifa fija";364.0;"Propiedad";18;15.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";108;5;"Regular";"Sí";0.218;"Aire acondicionado";"Verano";"Tarifa variable";202.0;"Propiedad";18;10.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";115;2;"Regular";"Sí";0.281;"Electrodomésticos";"Otoño";"Tarifa fija";379.0;"Propiedad";10;15.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";55;3;"Regular";"No";0.25;"Aire acondicionado";"Invierno";"Tarifa variable";246.0;"Alquiler";2;22.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";129;3;"Deficiente";"Sí";0.11;"Aire acondicionado";"Verano";"Tarifa variable";294.0;"Alquiler";9;23.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";129;4;"Bueno";"Sí";0.297;"Aire acondicionado";"Primavera";"Tarifa variable";212.0;"Alquiler";14;17.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";87;5;"Bueno";"Sí";0.255;"Calefacción eléctrica";"Primavera";"Tarifa variable";319.0;"Propiedad";19;16.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";124;1;"Bueno";"No";0.285;"Calefacción eléctrica";"Primavera";"Tarifa variable";254.0;"Propiedad";10;10.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";78;5;"Regular";"No";0.161;"Electrodomésticos";"Verano";"Tarifa fija";348.0;"Propiedad";4;23.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";139;5;"Regular";"Sí";0.25;"Electrodomésticos";"Otoño";"Tarifa variable";265.0;"Propiedad";6;10.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";72;4;"Bueno";"Sí";0.268;"Aire acondicionado";"Invierno";"Tarifa variable";381.0;"Alquiler";14;24.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";133;1;"Regular";"Sí";0.29;"Calefacción eléctrica";"Primavera";"Tarifa fija";354.0;"Alquiler";4;17.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";140;4;"Bueno";"No";0.145;"Aire acondicionado";"Verano";"Tarifa variable";365.0;"Alquiler";15;15.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";62;1;"Bueno";"No";0.155;"Aire acondicionado";"Verano";"Tarifa variable";289.0;"Alquiler";16;23.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";49;2;"Bueno";"No";0.242;"Calefacción eléctrica";"Invierno";"Tarifa fija";385.0;"Alquiler";7;10.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";108;1;"Bueno";"Sí";0.242;"Calefacción eléctrica";"Primavera";"Tarifa fija";261.0;"Alquiler";17;18.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";139;4;"Bueno";"No";0.187;"Calefacción eléctrica";"Verano";"Tarifa fija";301.0;"Propiedad";19;18.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";73;5;"Bueno";"Sí";0.106;"Electrodomésticos";"Invierno";"Tarifa variable";373.0;"Propiedad";19;13.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";91;1;"Bueno";"Sí";0.271;"Electrodomésticos";"Otoño";"Tarifa fija";338.0;"Alquiler";17;16.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";134;1;"Regular";"Sí";0.135;"Aire acondicionado";"Otoño";"Tarifa fija";399.0;"Propiedad";6;19.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";49;3;"Bueno";"No";0.161;"Electrodomésticos";"Otoño";"Tarifa fija";207.0;"Alquiler";11;20.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";58;5;"Bueno";"Sí";0.101;"Calefacción eléctrica";"Primavera";"Tarifa variable";296.0;"Alquiler";16;10.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";97;2;"Regular";"No";0.122;"Calefacción eléctrica";"Invierno";"Tarifa fija";316.0;"Propiedad";8;24.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";135;4;"Regular";"No";0.209;"Electrodomésticos";"Invierno";"Tarifa variable";398.0;"Alquiler";11;12.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";40;2;"Regular";"Sí";0.179;"Aire acondicionado";"Verano";"Tarifa variable";263.0;"Alquiler";7;13.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";108;5;"Bueno";"Sí";0.167;"Aire acondicionado";"Verano";"Tarifa fija";220.0;"Alquiler";19;13.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";148;1;"Deficiente";"No";0.2;"Electrodomésticos";"Verano";"Tarifa variable";399.0;"Propiedad";10;10.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";43;1;"Deficiente";"Sí";0.198;"Aire acondicionado";"Invierno";"Tarifa variable";314.0;"Propiedad";9;11.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";55;5;"Regular";"No";0.288;"Aire acondicionado";"Verano";"Tarifa fija";390.0;"Propiedad";4;24.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";63;1;"Deficiente";"Sí";0.147;"Aire acondicionado";"Invierno";"Tarifa variable";284.0;"Propiedad";15;14.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";119;1;"Regular";"No";0.171;"Calefacción eléctrica";"Invierno";"Tarifa fija";391.0;"Alquiler";13;11.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";41;1;"Bueno";"No";0.113;"Calefacción eléctrica";"Otoño";"Tarifa variable";219.0;"Propiedad";2;11.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";131;4;"Deficiente";"No";0.154;"Electrodomésticos";"Verano";"Tarifa variable";207.0;"Propiedad";2;20.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";71;4;"Bueno";"No";0.13;"Calefacción eléctrica";"Otoño";"Tarifa fija";257.0;"Propiedad";16;22.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";130;3;"Deficiente";"Sí";0.29;"Aire acondicionado";"Primavera";"Tarifa fija";245.0;"Alquiler";9;13.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";123;2;"Bueno";"Sí";0.158;"Calefacción eléctrica";"Primavera";"Tarifa variable";230.0;"Propiedad";13;10.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";63;5;"Deficiente";"No";0.22;"Electrodomésticos";"Primavera";"Tarifa variable";292.0;"Propiedad";3;13.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";51;5;"Bueno";"No";0.125;"Calefacción eléctrica";"Invierno";"Tarifa fija";208.0;"Alquiler";9;10.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";89;5;"Bueno";"Sí";0.264;"Aire acondicionado";"Invierno";"Tarifa variable";214.0;"Alquiler";13;11.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";74;3;"Deficiente";"Sí";0.246;"Aire acondicionado";"Invierno";"Tarifa variable";293.0;"Alquiler";2;16.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";72;4;"Bueno";"Sí";0.137;"Electrodomésticos";"Verano";"Tarifa variable";353.0;"Alquiler";8;13.0;6;6;2;1
+"Hogar_11";2022;"Mayo";306.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";72;3;"Bueno";"Sí";0.248;"Calefacción eléctrica";"Otoño";"Tarifa variable";337.0;"Propiedad";9;17.0;7;2;2;2
+"Hogar_12";2021;"Junio";128.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";100;5;"Bueno";"Sí";0.128;"Calefacción eléctrica";"Invierno";"Tarifa fija";228.0;"Alquiler";16;13.0;3;3;1;1
+"Hogar_13";2022;"Abril";312.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";90;2;"Deficiente";"Sí";0.196;"Calefacción eléctrica";"Otoño";"Tarifa fija";279.0;"Propiedad";2;24.0;8;7;2;1
+"Hogar_14";2021;"Julio";130.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";82;1;"Deficiente";"No";0.297;"Aire acondicionado";"Otoño";"Tarifa fija";235.0;"Propiedad";6;23.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";354.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";140;4;"Bueno";"Sí";0.195;"Electrodomésticos";"Otoño";"Tarifa fija";283.0;"Propiedad";8;18.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";446.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";51;4;"Bueno";"Sí";0.183;"Calefacción eléctrica";"Verano";"Tarifa fija";308.0;"Propiedad";5;15.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";106;3;"Deficiente";"No";0.233;"Aire acondicionado";"Verano";"Tarifa fija";317.0;"Propiedad";9;15.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";104;4;"Deficiente";"Sí";0.116;"Aire acondicionado";"Primavera";"Tarifa variable";236.0;"Alquiler";1;16.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";72;5;"Bueno";"Sí";0.179;"Aire acondicionado";"Primavera";"Tarifa fija";285.0;"Propiedad";9;20.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";79;5;"Bueno";"Sí";0.246;"Calefacción eléctrica";"Otoño";"Tarifa variable";270.0;"Propiedad";10;16.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";113;3;"Bueno";"Sí";0.193;"Calefacción eléctrica";"Primavera";"Tarifa variable";350.0;"Propiedad";4;22.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";82;5;"Regular";"Sí";0.13;"Calefacción eléctrica";"Otoño";"Tarifa variable";368.0;"Alquiler";3;24.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";83;2;"Deficiente";"No";0.17;"Calefacción eléctrica";"Verano";"Tarifa fija";292.0;"Propiedad";10;15.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";68;3;"Regular";"Sí";0.159;"Calefacción eléctrica";"Verano";"Tarifa variable";279.0;"Propiedad";15;18.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";52;2;"Deficiente";"No";0.185;"Calefacción eléctrica";"Verano";"Tarifa fija";301.0;"Alquiler";11;11.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";51;1;"Deficiente";"No";0.149;"Calefacción eléctrica";"Invierno";"Tarifa variable";355.0;"Propiedad";14;13.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";134;2;"Deficiente";"Sí";0.288;"Calefacción eléctrica";"Otoño";"Tarifa variable";375.0;"Propiedad";6;16.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";85;1;"Deficiente";"No";0.293;"Calefacción eléctrica";"Verano";"Tarifa fija";365.0;"Alquiler";12;13.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";41;1;"Deficiente";"Sí";0.102;"Aire acondicionado";"Otoño";"Tarifa variable";358.0;"Propiedad";13;23.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";74;2;"Deficiente";"No";0.133;"Calefacción eléctrica";"Primavera";"Tarifa variable";213.0;"Propiedad";17;12.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";126;3;"Deficiente";"No";0.256;"Electrodomésticos";"Primavera";"Tarifa variable";316.0;"Propiedad";16;16.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";120;5;"Regular";"Sí";0.181;"Aire acondicionado";"Verano";"Tarifa variable";272.0;"Propiedad";3;19.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";129;5;"Bueno";"Sí";0.238;"Calefacción eléctrica";"Otoño";"Tarifa fija";290.0;"Propiedad";2;20.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";47;1;"Bueno";"Sí";0.148;"Electrodomésticos";"Verano";"Tarifa variable";289.0;"Alquiler";11;15.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";132;1;"Regular";"Sí";0.124;"Calefacción eléctrica";"Primavera";"Tarifa variable";228.0;"Alquiler";9;23.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";65;3;"Regular";"Sí";0.276;"Electrodomésticos";"Verano";"Tarifa fija";378.0;"Alquiler";3;18.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";113;4;"Regular";"No";0.111;"Electrodomésticos";"Otoño";"Tarifa variable";248.0;"Propiedad";18;16.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";129;2;"Regular";"No";0.224;"Electrodomésticos";"Primavera";"Tarifa variable";370.0;"Propiedad";15;11.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";73;1;"Deficiente";"No";0.286;"Electrodomésticos";"Invierno";"Tarifa variable";271.0;"Propiedad";14;16.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";144;5;"Bueno";"No";0.261;"Aire acondicionado";"Primavera";"Tarifa variable";332.0;"Alquiler";2;22.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";46;3;"Deficiente";"No";0.147;"Aire acondicionado";"Invierno";"Tarifa fija";241.0;"Propiedad";17;19.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";107;2;"Bueno";"No";0.252;"Electrodomésticos";"Verano";"Tarifa variable";334.0;"Propiedad";8;22.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";97;3;"Bueno";"No";0.116;"Calefacción eléctrica";"Verano";"Tarifa fija";241.0;"Propiedad";10;17.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";148;2;"Regular";"Sí";0.128;"Electrodomésticos";"Otoño";"Tarifa variable";363.0;"Alquiler";18;11.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";114;2;"Deficiente";"Sí";0.189;"Aire acondicionado";"Invierno";"Tarifa variable";304.0;"Alquiler";19;10.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";68;1;"Regular";"No";0.262;"Calefacción eléctrica";"Verano";"Tarifa variable";226.0;"Propiedad";8;14.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";75;3;"Deficiente";"No";0.242;"Aire acondicionado";"Invierno";"Tarifa fija";257.0;"Propiedad";8;20.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";128;3;"Bueno";"Sí";0.123;"Aire acondicionado";"Verano";"Tarifa variable";245.0;"Propiedad";3;21.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";60;5;"Regular";"Sí";0.19;"Calefacción eléctrica";"Primavera";"Tarifa variable";265.0;"Alquiler";3;14.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";75;5;"Regular";"Sí";0.279;"Electrodomésticos";"Verano";"Tarifa fija";224.0;"Alquiler";12;17.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";49;1;"Bueno";"Sí";0.128;"Electrodomésticos";"Otoño";"Tarifa fija";272.0;"Alquiler";17;16.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";140;1;"Bueno";"No";0.101;"Electrodomésticos";"Primavera";"Tarifa fija";316.0;"Propiedad";4;16.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";112;4;"Bueno";"Sí";0.221;"Electrodomésticos";"Otoño";"Tarifa fija";354.0;"Alquiler";17;13.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";63;5;"Regular";"No";0.102;"Calefacción eléctrica";"Primavera";"Tarifa variable";328.0;"Propiedad";14;12.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";103;2;"Deficiente";"No";0.149;"Calefacción eléctrica";"Invierno";"Tarifa variable";286.0;"Propiedad";19;12.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";138;3;"Regular";"No";0.14;"Calefacción eléctrica";"Otoño";"Tarifa variable";273.0;"Alquiler";9;10.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";88;1;"Deficiente";"Sí";0.15;"Aire acondicionado";"Verano";"Tarifa variable";369.0;"Propiedad";12;12.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";138;3;"Regular";"Sí";0.232;"Calefacción eléctrica";"Invierno";"Tarifa fija";379.0;"Alquiler";5;10.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";75;3;"Regular";"No";0.209;"Electrodomésticos";"Verano";"Tarifa variable";352.0;"Propiedad";11;19.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";121;4;"Bueno";"No";0.251;"Aire acondicionado";"Primavera";"Tarifa variable";381.0;"Propiedad";3;14.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";142;5;"Deficiente";"No";0.128;"Electrodomésticos";"Primavera";"Tarifa variable";324.0;"Alquiler";15;24.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";135;1;"Regular";"Sí";0.186;"Electrodomésticos";"Verano";"Tarifa variable";266.0;"Propiedad";14;12.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";63;3;"Regular";"No";0.245;"Calefacción eléctrica";"Verano";"Tarifa fija";205.0;"Propiedad";11;15.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";62;1;"Bueno";"Sí";0.167;"Calefacción eléctrica";"Invierno";"Tarifa variable";324.0;"Propiedad";8;15.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";101;2;"Bueno";"No";0.201;"Electrodomésticos";"Verano";"Tarifa variable";257.0;"Propiedad";4;10.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";135;4;"Deficiente";"No";0.203;"Electrodomésticos";"Otoño";"Tarifa variable";269.0;"Propiedad";12;22.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";76;2;"Regular";"No";0.112;"Aire acondicionado";"Otoño";"Tarifa fija";252.0;"Propiedad";8;10.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";51;1;"Deficiente";"Sí";0.25;"Calefacción eléctrica";"Verano";"Tarifa fija";265.0;"Propiedad";6;24.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";94;1;"Regular";"Sí";0.217;"Aire acondicionado";"Otoño";"Tarifa variable";257.0;"Propiedad";15;23.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";52;5;"Deficiente";"No";0.232;"Aire acondicionado";"Verano";"Tarifa variable";281.0;"Alquiler";12;18.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";62;3;"Bueno";"Sí";0.21;"Aire acondicionado";"Invierno";"Tarifa variable";286.0;"Alquiler";16;18.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";128;3;"Regular";"No";0.256;"Electrodomésticos";"Otoño";"Tarifa fija";201.0;"Propiedad";16;19.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";138;2;"Deficiente";"Sí";0.149;"Aire acondicionado";"Otoño";"Tarifa variable";349.0;"Propiedad";4;15.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";144;4;"Bueno";"Sí";0.278;"Aire acondicionado";"Verano";"Tarifa variable";236.0;"Alquiler";11;19.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";69;3;"Bueno";"Sí";0.242;"Electrodomésticos";"Otoño";"Tarifa variable";347.0;"Propiedad";13;10.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";56;5;"Deficiente";"No";0.276;"Calefacción eléctrica";"Primavera";"Tarifa fija";302.0;"Alquiler";9;10.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";101;2;"Regular";"Sí";0.155;"Calefacción eléctrica";"Invierno";"Tarifa variable";223.0;"Alquiler";4;16.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";123;2;"Regular";"Sí";0.244;"Aire acondicionado";"Invierno";"Tarifa variable";311.0;"Alquiler";12;18.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";128;5;"Bueno";"No";0.259;"Electrodomésticos";"Otoño";"Tarifa fija";264.0;"Propiedad";9;23.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";125;4;"Regular";"No";0.259;"Calefacción eléctrica";"Otoño";"Tarifa fija";392.0;"Propiedad";13;11.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";52;5;"Regular";"No";0.221;"Aire acondicionado";"Primavera";"Tarifa variable";328.0;"Propiedad";16;22.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";98;4;"Regular";"No";0.228;"Aire acondicionado";"Primavera";"Tarifa fija";316.0;"Alquiler";6;13.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";58;5;"Bueno";"Sí";0.175;"Electrodomésticos";"Otoño";"Tarifa variable";315.0;"Alquiler";10;15.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";88;5;"Deficiente";"Sí";0.292;"Aire acondicionado";"Otoño";"Tarifa fija";304.0;"Alquiler";13;14.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";139;1;"Regular";"Sí";0.233;"Calefacción eléctrica";"Primavera";"Tarifa fija";202.0;"Propiedad";7;16.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";51;2;"Bueno";"Sí";0.19;"Electrodomésticos";"Verano";"Tarifa variable";245.0;"Alquiler";19;12.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";100;5;"Bueno";"Sí";0.153;"Calefacción eléctrica";"Primavera";"Tarifa variable";254.0;"Alquiler";19;17.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";144;5;"Deficiente";"No";0.294;"Calefacción eléctrica";"Verano";"Tarifa variable";274.0;"Propiedad";17;22.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";58;3;"Regular";"Sí";0.112;"Calefacción eléctrica";"Invierno";"Tarifa fija";391.0;"Alquiler";13;16.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";115;2;"Regular";"Sí";0.176;"Aire acondicionado";"Invierno";"Tarifa variable";244.0;"Alquiler";13;17.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";48;3;"Deficiente";"Sí";0.245;"Aire acondicionado";"Primavera";"Tarifa variable";353.0;"Propiedad";2;22.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";110;2;"Deficiente";"No";0.195;"Calefacción eléctrica";"Verano";"Tarifa variable";276.0;"Propiedad";10;20.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";67;3;"Bueno";"No";0.143;"Calefacción eléctrica";"Primavera";"Tarifa variable";392.0;"Alquiler";13;17.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";117;5;"Bueno";"Sí";0.228;"Electrodomésticos";"Primavera";"Tarifa variable";223.0;"Propiedad";9;13.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";134;5;"Deficiente";"No";0.21;"Electrodomésticos";"Verano";"Tarifa fija";234.0;"Alquiler";1;23.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";91;1;"Regular";"No";0.267;"Aire acondicionado";"Primavera";"Tarifa variable";223.0;"Propiedad";14;18.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";122;3;"Bueno";"No";0.204;"Aire acondicionado";"Invierno";"Tarifa variable";227.0;"Alquiler";16;13.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";55;4;"Bueno";"No";0.118;"Electrodomésticos";"Otoño";"Tarifa fija";215.0;"Propiedad";15;14.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";108;1;"Regular";"No";0.279;"Calefacción eléctrica";"Otoño";"Tarifa variable";258.0;"Alquiler";1;22.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";138;3;"Bueno";"No";0.143;"Aire acondicionado";"Primavera";"Tarifa variable";381.0;"Propiedad";17;10.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";51;3;"Regular";"No";0.178;"Calefacción eléctrica";"Verano";"Tarifa variable";343.0;"Propiedad";13;24.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";64;1;"Regular";"Sí";0.159;"Electrodomésticos";"Verano";"Tarifa variable";214.0;"Propiedad";15;11.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";91;5;"Regular";"Sí";0.164;"Aire acondicionado";"Invierno";"Tarifa variable";210.0;"Propiedad";16;21.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";124;3;"Deficiente";"No";0.24;"Aire acondicionado";"Verano";"Tarifa fija";392.0;"Propiedad";16;15.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";139;5;"Deficiente";"Sí";0.209;"Electrodomésticos";"Verano";"Tarifa fija";278.0;"Propiedad";2;17.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";92;1;"Deficiente";"Sí";0.225;"Aire acondicionado";"Invierno";"Tarifa fija";314.0;"Propiedad";17;23.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";62;5;"Regular";"No";0.197;"Electrodomésticos";"Primavera";"Tarifa variable";267.0;"Alquiler";11;16.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";55;2;"Regular";"Sí";0.212;"Aire acondicionado";"Otoño";"Tarifa fija";242.0;"Alquiler";8;18.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";96;4;"Deficiente";"No";0.167;"Electrodomésticos";"Invierno";"Tarifa variable";268.0;"Propiedad";3;10.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";78;3;"Bueno";"No";0.101;"Aire acondicionado";"Primavera";"Tarifa variable";340.0;"Propiedad";12;10.0;6;6;2;1
+"Hogar_11";2022;"Mayo";409.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";148;4;"Regular";"No";0.101;"Calefacción eléctrica";"Invierno";"Tarifa variable";337.0;"Alquiler";16;13.0;7;2;2;2
+"Hogar_12";2021;"Junio";338.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";92;5;"Bueno";"Sí";0.105;"Calefacción eléctrica";"Primavera";"Tarifa fija";274.0;"Alquiler";14;20.0;3;3;1;1
+"Hogar_13";2022;"Abril";265.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";81;3;"Bueno";"Sí";0.12;"Calefacción eléctrica";"Invierno";"Tarifa fija";302.0;"Propiedad";16;11.0;8;7;2;1
+"Hogar_14";2021;"Julio";405.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";97;5;"Regular";"Sí";0.186;"Aire acondicionado";"Primavera";"Tarifa fija";240.0;"Alquiler";17;11.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";108.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";78;2;"Regular";"Sí";0.269;"Aire acondicionado";"Invierno";"Tarifa variable";377.0;"Alquiler";11;16.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";116.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";53;1;"Bueno";"No";0.287;"Calefacción eléctrica";"Primavera";"Tarifa fija";398.0;"Propiedad";17;19.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";134;3;"Bueno";"No";0.129;"Calefacción eléctrica";"Invierno";"Tarifa variable";258.0;"Propiedad";19;20.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";44;2;"Deficiente";"Sí";0.282;"Electrodomésticos";"Otoño";"Tarifa fija";238.0;"Propiedad";1;12.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";74;2;"Deficiente";"No";0.125;"Electrodomésticos";"Otoño";"Tarifa fija";202.0;"Alquiler";12;11.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";126;3;"Regular";"No";0.278;"Electrodomésticos";"Verano";"Tarifa variable";206.0;"Propiedad";15;24.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";132;5;"Deficiente";"Sí";0.115;"Calefacción eléctrica";"Primavera";"Tarifa variable";248.0;"Propiedad";18;13.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";146;2;"Deficiente";"No";0.243;"Calefacción eléctrica";"Invierno";"Tarifa fija";225.0;"Alquiler";14;22.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";114;4;"Deficiente";"Sí";0.167;"Calefacción eléctrica";"Primavera";"Tarifa fija";360.0;"Propiedad";1;22.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";57;2;"Deficiente";"No";0.209;"Electrodomésticos";"Otoño";"Tarifa fija";300.0;"Alquiler";13;21.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";115;5;"Bueno";"Sí";0.244;"Aire acondicionado";"Primavera";"Tarifa variable";375.0;"Alquiler";15;12.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";48;5;"Regular";"No";0.291;"Calefacción eléctrica";"Invierno";"Tarifa variable";278.0;"Alquiler";7;22.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";113;4;"Deficiente";"No";0.223;"Aire acondicionado";"Primavera";"Tarifa fija";201.0;"Alquiler";15;21.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";97;2;"Bueno";"Sí";0.143;"Aire acondicionado";"Invierno";"Tarifa fija";326.0;"Alquiler";10;18.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";147;5;"Bueno";"Sí";0.147;"Aire acondicionado";"Otoño";"Tarifa variable";398.0;"Alquiler";14;15.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";56;3;"Bueno";"Sí";0.205;"Electrodomésticos";"Otoño";"Tarifa fija";359.0;"Propiedad";6;13.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";141;1;"Deficiente";"Sí";0.285;"Aire acondicionado";"Otoño";"Tarifa variable";331.0;"Propiedad";14;11.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";46;1;"Deficiente";"No";0.109;"Calefacción eléctrica";"Verano";"Tarifa variable";219.0;"Propiedad";12;17.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";85;1;"Regular";"No";0.189;"Electrodomésticos";"Otoño";"Tarifa variable";316.0;"Alquiler";11;18.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";52;2;"Deficiente";"Sí";0.117;"Calefacción eléctrica";"Primavera";"Tarifa variable";363.0;"Propiedad";19;15.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";79;4;"Deficiente";"No";0.12;"Calefacción eléctrica";"Verano";"Tarifa variable";231.0;"Alquiler";2;17.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";81;5;"Bueno";"Sí";0.147;"Electrodomésticos";"Otoño";"Tarifa variable";227.0;"Propiedad";1;15.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";48;3;"Regular";"Sí";0.275;"Calefacción eléctrica";"Primavera";"Tarifa fija";276.0;"Alquiler";8;19.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";89;3;"Deficiente";"No";0.236;"Calefacción eléctrica";"Primavera";"Tarifa variable";200.0;"Propiedad";14;23.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";66;2;"Deficiente";"No";0.253;"Electrodomésticos";"Primavera";"Tarifa variable";387.0;"Alquiler";9;12.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";105;1;"Bueno";"Sí";0.257;"Calefacción eléctrica";"Invierno";"Tarifa fija";255.0;"Propiedad";2;15.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";44;2;"Bueno";"Sí";0.225;"Aire acondicionado";"Verano";"Tarifa variable";234.0;"Alquiler";5;12.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";68;4;"Deficiente";"Sí";0.257;"Calefacción eléctrica";"Primavera";"Tarifa fija";311.0;"Propiedad";8;19.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";76;4;"Regular";"No";0.109;"Aire acondicionado";"Invierno";"Tarifa variable";229.0;"Alquiler";16;20.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";77;5;"Regular";"No";0.275;"Calefacción eléctrica";"Otoño";"Tarifa fija";253.0;"Propiedad";16;23.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";122;5;"Bueno";"No";0.147;"Electrodomésticos";"Primavera";"Tarifa fija";235.0;"Propiedad";13;14.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";47;4;"Bueno";"No";0.21;"Electrodomésticos";"Invierno";"Tarifa variable";382.0;"Propiedad";15;24.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";148;4;"Deficiente";"Sí";0.108;"Calefacción eléctrica";"Primavera";"Tarifa variable";279.0;"Alquiler";1;10.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";104;4;"Bueno";"Sí";0.21;"Electrodomésticos";"Verano";"Tarifa variable";257.0;"Alquiler";3;19.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";125;2;"Deficiente";"Sí";0.228;"Calefacción eléctrica";"Verano";"Tarifa variable";282.0;"Alquiler";6;10.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";56;4;"Regular";"Sí";0.21;"Electrodomésticos";"Otoño";"Tarifa fija";264.0;"Alquiler";14;23.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";110;3;"Regular";"Sí";0.267;"Aire acondicionado";"Primavera";"Tarifa fija";268.0;"Alquiler";4;17.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";128;1;"Deficiente";"Sí";0.205;"Calefacción eléctrica";"Invierno";"Tarifa fija";327.0;"Propiedad";18;20.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";84;4;"Bueno";"No";0.124;"Aire acondicionado";"Otoño";"Tarifa variable";250.0;"Alquiler";15;22.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";43;1;"Regular";"No";0.105;"Aire acondicionado";"Primavera";"Tarifa fija";221.0;"Propiedad";9;12.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";75;2;"Bueno";"Sí";0.253;"Calefacción eléctrica";"Otoño";"Tarifa variable";306.0;"Propiedad";18;10.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";109;1;"Regular";"Sí";0.25;"Aire acondicionado";"Invierno";"Tarifa variable";308.0;"Alquiler";3;23.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";70;2;"Deficiente";"No";0.189;"Calefacción eléctrica";"Otoño";"Tarifa fija";315.0;"Propiedad";10;14.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";58;3;"Deficiente";"No";0.295;"Aire acondicionado";"Otoño";"Tarifa variable";300.0;"Alquiler";17;11.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";100;2;"Deficiente";"No";0.209;"Calefacción eléctrica";"Otoño";"Tarifa fija";380.0;"Alquiler";7;17.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";147;2;"Regular";"No";0.259;"Calefacción eléctrica";"Primavera";"Tarifa variable";299.0;"Alquiler";15;18.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";93;5;"Bueno";"Sí";0.171;"Electrodomésticos";"Invierno";"Tarifa fija";363.0;"Propiedad";1;10.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";78;4;"Bueno";"Sí";0.175;"Calefacción eléctrica";"Verano";"Tarifa variable";267.0;"Alquiler";11;14.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";130;4;"Bueno";"Sí";0.261;"Calefacción eléctrica";"Primavera";"Tarifa fija";235.0;"Alquiler";17;10.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";113;3;"Regular";"Sí";0.281;"Aire acondicionado";"Verano";"Tarifa fija";379.0;"Alquiler";5;16.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";129;3;"Regular";"Sí";0.123;"Calefacción eléctrica";"Verano";"Tarifa variable";380.0;"Propiedad";7;23.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";58;4;"Regular";"No";0.273;"Electrodomésticos";"Primavera";"Tarifa variable";377.0;"Alquiler";19;24.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";78;5;"Regular";"Sí";0.294;"Aire acondicionado";"Primavera";"Tarifa fija";368.0;"Propiedad";15;19.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";106;4;"Regular";"No";0.151;"Aire acondicionado";"Invierno";"Tarifa variable";345.0;"Propiedad";3;12.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";84;5;"Bueno";"Sí";0.172;"Electrodomésticos";"Invierno";"Tarifa variable";221.0;"Alquiler";15;23.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";52;3;"Regular";"Sí";0.107;"Aire acondicionado";"Otoño";"Tarifa variable";265.0;"Propiedad";5;17.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";131;1;"Regular";"Sí";0.121;"Aire acondicionado";"Verano";"Tarifa fija";220.0;"Propiedad";12;12.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";97;3;"Bueno";"Sí";0.183;"Aire acondicionado";"Invierno";"Tarifa fija";299.0;"Alquiler";5;23.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";59;3;"Regular";"Sí";0.253;"Aire acondicionado";"Otoño";"Tarifa variable";327.0;"Alquiler";3;21.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";131;2;"Bueno";"No";0.217;"Electrodomésticos";"Invierno";"Tarifa variable";243.0;"Alquiler";9;20.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";111;2;"Bueno";"No";0.224;"Electrodomésticos";"Primavera";"Tarifa fija";302.0;"Propiedad";9;20.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";100;2;"Deficiente";"No";0.17;"Aire acondicionado";"Invierno";"Tarifa variable";246.0;"Alquiler";7;13.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";144;2;"Deficiente";"Sí";0.278;"Aire acondicionado";"Verano";"Tarifa fija";238.0;"Propiedad";2;13.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";78;5;"Deficiente";"Sí";0.182;"Electrodomésticos";"Invierno";"Tarifa variable";228.0;"Propiedad";16;20.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";40;4;"Deficiente";"No";0.174;"Electrodomésticos";"Verano";"Tarifa variable";253.0;"Propiedad";9;13.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";42;1;"Regular";"Sí";0.224;"Electrodomésticos";"Primavera";"Tarifa variable";289.0;"Propiedad";13;16.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";116;3;"Deficiente";"Sí";0.297;"Aire acondicionado";"Verano";"Tarifa fija";284.0;"Propiedad";19;21.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";131;5;"Bueno";"No";0.113;"Aire acondicionado";"Invierno";"Tarifa fija";216.0;"Alquiler";17;21.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";101;1;"Regular";"Sí";0.173;"Calefacción eléctrica";"Otoño";"Tarifa fija";279.0;"Alquiler";6;16.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";102;5;"Deficiente";"No";0.227;"Electrodomésticos";"Primavera";"Tarifa fija";387.0;"Propiedad";4;21.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";64;5;"Bueno";"Sí";0.114;"Aire acondicionado";"Invierno";"Tarifa variable";358.0;"Propiedad";1;22.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";95;3;"Regular";"No";0.192;"Electrodomésticos";"Primavera";"Tarifa variable";272.0;"Alquiler";18;19.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";72;4;"Regular";"Sí";0.118;"Aire acondicionado";"Primavera";"Tarifa fija";248.0;"Alquiler";19;13.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";77;2;"Deficiente";"Sí";0.115;"Electrodomésticos";"Invierno";"Tarifa variable";300.0;"Propiedad";9;14.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";45;4;"Regular";"No";0.12;"Aire acondicionado";"Invierno";"Tarifa variable";201.0;"Propiedad";13;14.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";97;3;"Bueno";"Sí";0.155;"Calefacción eléctrica";"Otoño";"Tarifa fija";375.0;"Alquiler";8;11.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";83;3;"Regular";"Sí";0.114;"Calefacción eléctrica";"Primavera";"Tarifa variable";341.0;"Alquiler";13;14.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";84;3;"Bueno";"No";0.206;"Electrodomésticos";"Primavera";"Tarifa variable";258.0;"Propiedad";15;13.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";71;1;"Regular";"Sí";0.186;"Aire acondicionado";"Invierno";"Tarifa fija";296.0;"Alquiler";11;16.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";84;4;"Deficiente";"No";0.212;"Aire acondicionado";"Verano";"Tarifa variable";298.0;"Alquiler";12;23.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";100;4;"Bueno";"Sí";0.201;"Electrodomésticos";"Invierno";"Tarifa variable";385.0;"Propiedad";14;11.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";86;5;"Regular";"Sí";0.271;"Aire acondicionado";"Primavera";"Tarifa variable";302.0;"Propiedad";4;20.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";60;5;"Regular";"Sí";0.253;"Electrodomésticos";"Invierno";"Tarifa fija";385.0;"Propiedad";1;20.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";119;5;"Regular";"Sí";0.151;"Aire acondicionado";"Otoño";"Tarifa fija";378.0;"Alquiler";4;11.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";124;3;"Bueno";"No";0.297;"Electrodomésticos";"Verano";"Tarifa variable";201.0;"Propiedad";19;23.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";114;4;"Bueno";"Sí";0.131;"Aire acondicionado";"Invierno";"Tarifa variable";240.0;"Alquiler";9;18.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";140;3;"Bueno";"No";0.263;"Electrodomésticos";"Otoño";"Tarifa variable";322.0;"Propiedad";10;15.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";75;1;"Deficiente";"Sí";0.224;"Aire acondicionado";"Primavera";"Tarifa fija";281.0;"Propiedad";4;21.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";138;5;"Deficiente";"Sí";0.23;"Calefacción eléctrica";"Invierno";"Tarifa fija";343.0;"Alquiler";9;13.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";58;3;"Bueno";"Sí";0.179;"Aire acondicionado";"Primavera";"Tarifa fija";331.0;"Alquiler";13;20.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";59;3;"Regular";"Sí";0.103;"Electrodomésticos";"Otoño";"Tarifa variable";339.0;"Propiedad";12;10.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";96;1;"Deficiente";"No";0.279;"Calefacción eléctrica";"Primavera";"Tarifa variable";228.0;"Propiedad";11;22.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";57;2;"Bueno";"No";0.185;"Aire acondicionado";"Otoño";"Tarifa variable";334.0;"Alquiler";12;16.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";86;4;"Regular";"No";0.187;"Calefacción eléctrica";"Otoño";"Tarifa variable";213.0;"Propiedad";18;19.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";144;2;"Deficiente";"No";0.282;"Aire acondicionado";"Otoño";"Tarifa variable";211.0;"Alquiler";12;13.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";88;5;"Regular";"Sí";0.149;"Calefacción eléctrica";"Invierno";"Tarifa fija";298.0;"Alquiler";16;20.0;6;6;2;1
+"Hogar_11";2022;"Mayo";439.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";53;3;"Regular";"No";0.2;"Electrodomésticos";"Primavera";"Tarifa variable";332.0;"Propiedad";5;21.0;7;2;2;2
+"Hogar_12";2021;"Junio";310.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";54;1;"Regular";"No";0.253;"Aire acondicionado";"Primavera";"Tarifa variable";280.0;"Alquiler";12;17.0;3;3;1;1
+"Hogar_13";2022;"Abril";424.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";70;1;"Regular";"Sí";0.162;"Aire acondicionado";"Verano";"Tarifa variable";305.0;"Alquiler";11;19.0;8;7;2;1
+"Hogar_14";2021;"Julio";491.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";40;4;"Deficiente";"Sí";0.155;"Electrodomésticos";"Verano";"Tarifa fija";231.0;"Alquiler";9;16.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";491.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";93;2;"Deficiente";"Sí";0.186;"Calefacción eléctrica";"Verano";"Tarifa variable";273.0;"Propiedad";18;23.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";428.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";42;4;"Deficiente";"Sí";0.166;"Electrodomésticos";"Verano";"Tarifa fija";370.0;"Alquiler";3;17.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";55;3;"Bueno";"No";0.172;"Electrodomésticos";"Primavera";"Tarifa fija";280.0;"Propiedad";17;22.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";126;4;"Deficiente";"No";0.263;"Calefacción eléctrica";"Otoño";"Tarifa fija";268.0;"Propiedad";14;22.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";96;1;"Regular";"Sí";0.298;"Electrodomésticos";"Otoño";"Tarifa fija";244.0;"Propiedad";1;16.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";114;1;"Deficiente";"Sí";0.203;"Aire acondicionado";"Invierno";"Tarifa fija";305.0;"Alquiler";17;13.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";51;5;"Regular";"Sí";0.22;"Aire acondicionado";"Otoño";"Tarifa variable";336.0;"Alquiler";8;16.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";113;5;"Bueno";"No";0.19;"Aire acondicionado";"Primavera";"Tarifa variable";376.0;"Propiedad";5;22.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";135;3;"Regular";"No";0.19;"Electrodomésticos";"Primavera";"Tarifa fija";360.0;"Propiedad";5;13.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";55;2;"Regular";"Sí";0.279;"Aire acondicionado";"Primavera";"Tarifa fija";299.0;"Alquiler";9;17.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";111;4;"Regular";"Sí";0.127;"Aire acondicionado";"Invierno";"Tarifa fija";345.0;"Propiedad";3;22.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";141;3;"Bueno";"No";0.298;"Aire acondicionado";"Verano";"Tarifa variable";208.0;"Propiedad";19;15.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";115;5;"Deficiente";"Sí";0.209;"Aire acondicionado";"Otoño";"Tarifa variable";261.0;"Alquiler";9;19.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";63;4;"Deficiente";"Sí";0.252;"Aire acondicionado";"Primavera";"Tarifa fija";384.0;"Propiedad";18;13.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";67;5;"Bueno";"No";0.133;"Aire acondicionado";"Primavera";"Tarifa variable";228.0;"Alquiler";16;11.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";47;4;"Regular";"Sí";0.21;"Electrodomésticos";"Verano";"Tarifa variable";324.0;"Alquiler";1;21.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";131;2;"Deficiente";"No";0.148;"Aire acondicionado";"Primavera";"Tarifa fija";313.0;"Propiedad";2;11.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";75;3;"Bueno";"Sí";0.213;"Aire acondicionado";"Otoño";"Tarifa fija";352.0;"Alquiler";14;14.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";129;4;"Deficiente";"Sí";0.118;"Calefacción eléctrica";"Invierno";"Tarifa variable";342.0;"Alquiler";14;22.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";47;1;"Bueno";"No";0.254;"Electrodomésticos";"Primavera";"Tarifa variable";333.0;"Alquiler";1;15.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";97;1;"Regular";"No";0.215;"Electrodomésticos";"Otoño";"Tarifa variable";319.0;"Propiedad";16;24.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";99;4;"Deficiente";"Sí";0.215;"Electrodomésticos";"Primavera";"Tarifa fija";369.0;"Propiedad";15;24.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";89;4;"Bueno";"No";0.128;"Electrodomésticos";"Verano";"Tarifa fija";356.0;"Propiedad";15;14.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";67;4;"Deficiente";"Sí";0.294;"Aire acondicionado";"Primavera";"Tarifa fija";278.0;"Alquiler";12;10.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";131;1;"Deficiente";"Sí";0.187;"Aire acondicionado";"Primavera";"Tarifa variable";292.0;"Alquiler";16;20.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";140;1;"Deficiente";"No";0.155;"Calefacción eléctrica";"Invierno";"Tarifa variable";203.0;"Propiedad";14;16.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";80;4;"Deficiente";"Sí";0.111;"Calefacción eléctrica";"Verano";"Tarifa fija";281.0;"Propiedad";15;11.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";139;5;"Bueno";"Sí";0.191;"Electrodomésticos";"Verano";"Tarifa variable";384.0;"Alquiler";15;20.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";103;5;"Regular";"No";0.123;"Calefacción eléctrica";"Invierno";"Tarifa fija";376.0;"Propiedad";19;10.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";66;2;"Bueno";"No";0.143;"Calefacción eléctrica";"Primavera";"Tarifa variable";371.0;"Propiedad";8;23.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";102;3;"Bueno";"Sí";0.247;"Electrodomésticos";"Otoño";"Tarifa fija";274.0;"Propiedad";2;12.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";56;5;"Bueno";"No";0.103;"Electrodomésticos";"Verano";"Tarifa variable";213.0;"Propiedad";2;11.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";112;1;"Regular";"No";0.274;"Calefacción eléctrica";"Verano";"Tarifa variable";330.0;"Propiedad";10;12.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";72;5;"Deficiente";"No";0.16;"Aire acondicionado";"Primavera";"Tarifa fija";313.0;"Alquiler";3;24.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";123;2;"Deficiente";"No";0.281;"Calefacción eléctrica";"Primavera";"Tarifa fija";261.0;"Propiedad";17;20.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";116;2;"Deficiente";"Sí";0.223;"Calefacción eléctrica";"Verano";"Tarifa fija";305.0;"Propiedad";8;22.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";131;3;"Regular";"Sí";0.174;"Aire acondicionado";"Primavera";"Tarifa fija";263.0;"Alquiler";4;15.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";68;5;"Deficiente";"Sí";0.298;"Aire acondicionado";"Otoño";"Tarifa fija";301.0;"Alquiler";14;15.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";52;1;"Regular";"No";0.269;"Electrodomésticos";"Verano";"Tarifa variable";372.0;"Alquiler";10;13.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";85;1;"Deficiente";"No";0.153;"Electrodomésticos";"Otoño";"Tarifa fija";305.0;"Alquiler";1;17.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";74;4;"Deficiente";"No";0.256;"Calefacción eléctrica";"Otoño";"Tarifa fija";385.0;"Propiedad";4;18.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";45;1;"Bueno";"No";0.122;"Aire acondicionado";"Primavera";"Tarifa fija";219.0;"Propiedad";1;19.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";121;3;"Regular";"No";0.143;"Electrodomésticos";"Otoño";"Tarifa fija";257.0;"Propiedad";17;13.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";108;3;"Bueno";"No";0.246;"Calefacción eléctrica";"Primavera";"Tarifa fija";311.0;"Propiedad";17;24.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";86;1;"Bueno";"No";0.103;"Aire acondicionado";"Invierno";"Tarifa variable";256.0;"Alquiler";7;12.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";64;1;"Bueno";"Sí";0.276;"Calefacción eléctrica";"Primavera";"Tarifa fija";395.0;"Alquiler";15;24.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";105;4;"Regular";"Sí";0.171;"Electrodomésticos";"Otoño";"Tarifa fija";318.0;"Propiedad";13;10.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";49;1;"Regular";"No";0.127;"Electrodomésticos";"Invierno";"Tarifa fija";296.0;"Propiedad";2;17.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";95;4;"Deficiente";"No";0.222;"Aire acondicionado";"Primavera";"Tarifa variable";291.0;"Propiedad";19;15.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";69;4;"Bueno";"No";0.231;"Calefacción eléctrica";"Otoño";"Tarifa variable";251.0;"Propiedad";13;16.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";148;1;"Deficiente";"Sí";0.188;"Aire acondicionado";"Verano";"Tarifa fija";236.0;"Alquiler";11;18.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";44;2;"Bueno";"Sí";0.148;"Electrodomésticos";"Verano";"Tarifa fija";207.0;"Propiedad";15;16.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";72;2;"Regular";"No";0.274;"Electrodomésticos";"Primavera";"Tarifa variable";243.0;"Alquiler";10;16.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";104;4;"Regular";"No";0.225;"Calefacción eléctrica";"Primavera";"Tarifa variable";297.0;"Alquiler";9;20.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";57;1;"Regular";"Sí";0.204;"Calefacción eléctrica";"Verano";"Tarifa variable";332.0;"Alquiler";9;20.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";135;2;"Bueno";"Sí";0.247;"Calefacción eléctrica";"Otoño";"Tarifa fija";317.0;"Alquiler";1;22.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";88;1;"Regular";"Sí";0.121;"Aire acondicionado";"Otoño";"Tarifa fija";268.0;"Propiedad";17;13.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";50;1;"Bueno";"Sí";0.164;"Calefacción eléctrica";"Otoño";"Tarifa variable";358.0;"Propiedad";12;19.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";124;1;"Deficiente";"No";0.156;"Calefacción eléctrica";"Primavera";"Tarifa fija";244.0;"Propiedad";10;18.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";65;5;"Bueno";"Sí";0.187;"Electrodomésticos";"Invierno";"Tarifa variable";336.0;"Propiedad";5;15.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";102;1;"Deficiente";"Sí";0.168;"Electrodomésticos";"Invierno";"Tarifa variable";231.0;"Alquiler";18;17.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";128;5;"Bueno";"No";0.178;"Calefacción eléctrica";"Invierno";"Tarifa variable";232.0;"Alquiler";15;14.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";125;4;"Deficiente";"Sí";0.286;"Calefacción eléctrica";"Invierno";"Tarifa fija";325.0;"Alquiler";6;12.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";98;2;"Regular";"Sí";0.197;"Electrodomésticos";"Invierno";"Tarifa variable";266.0;"Propiedad";7;13.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";66;2;"Deficiente";"Sí";0.227;"Calefacción eléctrica";"Primavera";"Tarifa variable";229.0;"Alquiler";17;11.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";88;2;"Regular";"No";0.243;"Aire acondicionado";"Primavera";"Tarifa fija";313.0;"Alquiler";6;20.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";116;2;"Regular";"Sí";0.233;"Aire acondicionado";"Invierno";"Tarifa variable";228.0;"Alquiler";8;19.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";72;2;"Deficiente";"No";0.137;"Aire acondicionado";"Primavera";"Tarifa fija";330.0;"Alquiler";12;24.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";137;2;"Bueno";"No";0.287;"Calefacción eléctrica";"Primavera";"Tarifa variable";384.0;"Propiedad";14;20.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";144;2;"Bueno";"Sí";0.125;"Electrodomésticos";"Invierno";"Tarifa fija";229.0;"Alquiler";12;10.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";138;4;"Bueno";"Sí";0.263;"Calefacción eléctrica";"Otoño";"Tarifa variable";336.0;"Alquiler";10;23.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";40;1;"Bueno";"Sí";0.24;"Calefacción eléctrica";"Primavera";"Tarifa variable";353.0;"Propiedad";15;22.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";60;3;"Bueno";"Sí";0.11;"Electrodomésticos";"Otoño";"Tarifa variable";329.0;"Propiedad";7;16.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";94;5;"Regular";"No";0.129;"Electrodomésticos";"Primavera";"Tarifa variable";261.0;"Propiedad";9;18.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";45;3;"Bueno";"Sí";0.214;"Electrodomésticos";"Primavera";"Tarifa variable";202.0;"Alquiler";10;24.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";131;3;"Regular";"Sí";0.186;"Aire acondicionado";"Invierno";"Tarifa fija";373.0;"Alquiler";10;17.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";120;1;"Regular";"Sí";0.186;"Calefacción eléctrica";"Primavera";"Tarifa fija";267.0;"Alquiler";16;23.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";108;1;"Regular";"No";0.272;"Electrodomésticos";"Verano";"Tarifa variable";224.0;"Alquiler";7;11.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";134;1;"Deficiente";"Sí";0.102;"Calefacción eléctrica";"Verano";"Tarifa variable";378.0;"Propiedad";5;12.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";44;2;"Deficiente";"Sí";0.194;"Aire acondicionado";"Invierno";"Tarifa variable";340.0;"Alquiler";3;16.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";141;4;"Regular";"No";0.163;"Aire acondicionado";"Otoño";"Tarifa fija";243.0;"Alquiler";18;18.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";42;2;"Deficiente";"No";0.136;"Electrodomésticos";"Otoño";"Tarifa fija";362.0;"Propiedad";11;22.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";92;4;"Bueno";"Sí";0.289;"Electrodomésticos";"Otoño";"Tarifa variable";254.0;"Propiedad";15;24.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";62;4;"Bueno";"Sí";0.137;"Calefacción eléctrica";"Verano";"Tarifa fija";336.0;"Propiedad";5;15.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";140;3;"Regular";"Sí";0.119;"Electrodomésticos";"Otoño";"Tarifa variable";329.0;"Alquiler";12;10.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";92;3;"Bueno";"Sí";0.284;"Calefacción eléctrica";"Otoño";"Tarifa variable";388.0;"Alquiler";4;22.0;8;7;2;1
+"Hogar_1";2022;"Febrero";206.0;"Casa";"Eléctrica";182.0;"Bilbao";"País Vasco";76;4;"Regular";"Sí";0.162;"Electrodomésticos";"Invierno";"Tarifa variable";240.0;"Alquiler";15;19.0;1;1;1;1
+"Hogar_2";2021;"Julio";199.0;"Casa";"Gas";87.0;"Sevilla";"Andalucía";113;4;"Regular";"No";0.257;"Calefacción eléctrica";"Otoño";"Tarifa fija";371.0;"Alquiler";9;12.0;2;2;1;2
+"Hogar_3";2021;"Febrero";219.0;"Apartamento";"Eléctrica";65.0;"Palma";"Islas Baleares";113;2;"Bueno";"No";0.298;"Calefacción eléctrica";"Verano";"Tarifa variable";263.0;"Alquiler";7;17.0;3;3;2;1
+"Hogar_4";2021;"Julio";194.0;"Apartamento";"Eléctrica";197.0;"Sevilla";"Andalucía";122;2;"Deficiente";"Sí";0.221;"Calefacción eléctrica";"Verano";"Tarifa variable";230.0;"Propiedad";10;21.0;2;2;2;1
+"Hogar_5";2022;"Septiembre";408.0;"Apartamento";"Eléctrica";186.0;"Sevilla";"Andalucía";56;3;"Bueno";"Sí";0.111;"Calefacción eléctrica";"Verano";"Tarifa variable";246.0;"Propiedad";13;21.0;2;2;2;1
+"Hogar_6";2022;"Noviembre";483.0;"Apartamento";"Gas";121.0;"Valencia";"Comunidad Valenciana";124;1;"Bueno";"No";0.193;"Aire acondicionado";"Invierno";"Tarifa fija";329.0;"Alquiler";8;17.0;4;4;2;2
+"Hogar_7";2022;"Abril";128.0;"Apartamento";"Gas";74.0;"Valencia";"Comunidad Valenciana";117;4;"Regular";"Sí";0.13;"Calefacción eléctrica";"Invierno";"Tarifa fija";295.0;"Alquiler";12;14.0;4;4;2;2
+"Hogar_8";2022;"Septiembre";197.0;"Casa";"Eléctrica";145.0;"Murcia";"Región de Murcia";112;2;"Regular";"Sí";0.174;"Electrodomésticos";"Primavera";"Tarifa fija";276.0;"Alquiler";19;24.0;5;5;1;1
+"Hogar_9";2022;"Junio";471.0;"Apartamento";"Gas";57.0;"Palma";"Islas Baleares";149;3;"Regular";"Sí";0.178;"Aire acondicionado";"Otoño";"Tarifa variable";309.0;"Alquiler";1;19.0;3;3;2;2
+"Hogar_10";2022;"Julio";377.0;"Apartamento";"Eléctrica";179.0;"Las Palmas";"Canarias";40;2;"Regular";"Sí";0.267;"Aire acondicionado";"Invierno";"Tarifa fija";268.0;"Alquiler";16;16.0;6;6;2;1
+"Hogar_11";2022;"Mayo";336.0;"Apartamento";"Gas";122.0;"Málaga";"Andalucía";90;4;"Deficiente";"Sí";0.102;"Calefacción eléctrica";"Verano";"Tarifa variable";257.0;"Propiedad";17;14.0;7;2;2;2
+"Hogar_12";2021;"Junio";138.0;"Casa";"Eléctrica";115.0;"Palma";"Islas Baleares";84;4;"Deficiente";"No";0.211;"Aire acondicionado";"Verano";"Tarifa fija";305.0;"Propiedad";18;20.0;3;3;1;1
+"Hogar_13";2022;"Abril";121.0;"Apartamento";"Eléctrica";150.0;"Madrid";"Comunidad de Madrid";116;5;"Deficiente";"Sí";0.247;"Calefacción eléctrica";"Invierno";"Tarifa variable";243.0;"Propiedad";11;13.0;8;7;2;1
+"Hogar_14";2021;"Julio";168.0;"Casa";"Gas";149.0;"Bilbao";"País Vasco";43;1;"Regular";"Sí";0.103;"Electrodomésticos";"Invierno";"Tarifa fija";273.0;"Alquiler";18;12.0;1;1;1;2
+"Hogar_15";2022;"Noviembre";328.0;"Casa";"Gas";139.0;"Sevilla";"Andalucía";101;5;"Regular";"Sí";0.273;"Calefacción eléctrica";"Invierno";"Tarifa variable";255.0;"Alquiler";7;17.0;2;2;1;2
+"Hogar_16";2021;"Noviembre";203.0;"Apartamento";"Gas";186.0;"Zaragoza";"Aragón";104;3;"Regular";"No";0.156;"Aire acondicionado";"Primavera";"Tarifa fija";370.0;"Propiedad";18;14.0;9;8;2;2
+"Hogar_17";2022;"Mayo";418.0;"Apartamento";"Eléctrica";187.0;"Valencia";"Comunidad Valenciana";143;2;"Deficiente";"No";0.26;"Electrodomésticos";"Verano";"Tarifa fija";326.0;"Propiedad";8;19.0;4;4;2;1
+"Hogar_18";2021;"Septiembre";418.0;"Apartamento";"Gas";71.0;"Valencia";"Comunidad Valenciana";71;3;"Regular";"No";0.132;"Calefacción eléctrica";"Primavera";"Tarifa fija";361.0;"Alquiler";6;11.0;4;4;2;2
+"Hogar_19";2022;"Noviembre";312.0;"Casa";"Eléctrica";54.0;"Madrid";"Comunidad de Madrid";73;4;"Bueno";"No";0.182;"Electrodomésticos";"Primavera";"Tarifa variable";229.0;"Propiedad";7;19.0;8;7;1;1
+"Hogar_20";2021;"Noviembre";339.0;"Casa";"Gas";170.0;"Murcia";"Región de Murcia";131;5;"Bueno";"Sí";0.214;"Electrodomésticos";"Otoño";"Tarifa fija";270.0;"Propiedad";10;14.0;5;5;1;2
+"Hogar_21";2021;"Abril";339.0;"Casa";"Gas";-1.0;"Palma";"Islas Baleares";134;5;"Regular";"No";0.225;"Aire acondicionado";"Verano";"Tarifa fija";397.0;"Alquiler";11;10.0;3;3;1;2
+"Hogar_22";2022;"Mayo";258.0;"Apartamento";"Eléctrica";-1.0;"Bilbao";"País Vasco";111;5;"Bueno";"Sí";0.18;"Electrodomésticos";"Verano";"Tarifa fija";317.0;"Propiedad";13;11.0;1;1;2;1
+"Hogar_23";2022;"Noviembre";125.0;"Casa";"Gas";-1.0;"Murcia";"Región de Murcia";78;3;"Bueno";"Sí";0.128;"Aire acondicionado";"Invierno";"Tarifa fija";254.0;"Propiedad";9;24.0;5;5;1;2
+"Hogar_24";2022;"Enero";218.0;"Casa";"Gas";-1.0;"Madrid";"Comunidad de Madrid";65;4;"Deficiente";"No";0.197;"Electrodomésticos";"Invierno";"Tarifa variable";266.0;"Propiedad";7;23.0;8;7;1;2
+"Hogar_25";2021;"Diciembre";479.0;"Casa";"Gas";-1.0;"Valencia";"Comunidad Valenciana";73;2;"Regular";"No";0.104;"Calefacción eléctrica";"Otoño";"Tarifa fija";340.0;"Alquiler";9;13.0;4;4;1;2
+"Hogar_26";2021;"Agosto";449.0;"Apartamento";"Eléctrica";-1.0;"Murcia";"Región de Murcia";93;2;"Regular";"No";0.229;"Electrodomésticos";"Primavera";"Tarifa variable";202.0;"Propiedad";13;21.0;5;5;2;1
+"Hogar_27";2022;"Mayo";346.0;"Casa";"Eléctrica";72.0;"Sevilla";"Andalucía";42;3;"Deficiente";"No";0.132;"Calefacción eléctrica";"Invierno";"Tarifa variable";225.0;"Propiedad";3;19.0;2;2;1;1
+"Hogar_28";2022;"Febrero";358.0;"Casa";"Eléctrica";104.0;"Sevilla";"Andalucía";89;5;"Bueno";"No";0.272;"Calefacción eléctrica";"Invierno";"Tarifa variable";256.0;"Propiedad";3;24.0;2;2;1;1
+"Hogar_29";2021;"Octubre";132.0;"Apartamento";"Eléctrica";100.0;"Zaragoza";"Aragón";51;1;"Bueno";"Sí";0.265;"Electrodomésticos";"Verano";"Tarifa variable";325.0;"Alquiler";1;15.0;9;8;2;1
+"Hogar_30";2022;"Mayo";341.0;"Casa";"Eléctrica";149.0;"Madrid";"Comunidad de Madrid";104;3;"Regular";"No";0.21;"Calefacción eléctrica";"Verano";"Tarifa fija";351.0;"Alquiler";2;20.0;8;7;1;1
+"Hogar_31";2021;"Enero";381.0;"Casa";"Gas";152.0;"Sevilla";"Andalucía";93;3;"Bueno";"No";0.154;"Electrodomésticos";"Invierno";"Tarifa variable";252.0;"Propiedad";3;10.0;2;2;1;2
+"Hogar_32";2022;"Febrero";488.0;"Casa";"Gas";144.0;"Sevilla";"Andalucía";147;4;"Deficiente";"No";0.241;"Electrodomésticos";"Verano";"Tarifa variable";397.0;"Alquiler";15;15.0;2;2;1;2
+"Hogar_33";2022;"Febrero";213.0;"Apartamento";"Gas";132.0;"Madrid";"Comunidad de Madrid";44;2;"Deficiente";"Sí";0.244;"Calefacción eléctrica";"Otoño";"Tarifa variable";242.0;"Propiedad";6;24.0;8;7;2;2
+"Hogar_34";2022;"Octubre";415.0;"Casa";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";133;3;"Regular";"No";0.197;"Calefacción eléctrica";"Invierno";"Tarifa variable";387.0;"Alquiler";13;18.0;4;4;1;1
+"Hogar_35";2022;"Septiembre";410.0;"Apartamento";"Eléctrica";152.0;"Murcia";"Región de Murcia";133;3;"Deficiente";"Sí";0.152;"Aire acondicionado";"Verano";"Tarifa fija";385.0;"Alquiler";1;14.0;5;5;2;1
+"Hogar_36";2022;"Septiembre";191.0;"Casa";"Eléctrica";198.0;"Valencia";"Comunidad Valenciana";96;5;"Deficiente";"No";0.27;"Calefacción eléctrica";"Otoño";"Tarifa fija";248.0;"Propiedad";19;11.0;4;4;1;1
+"Hogar_37";2022;"Octubre";406.0;"Casa";"Eléctrica";190.0;"Málaga";"Andalucía";56;5;"Regular";"No";0.192;"Aire acondicionado";"Verano";"Tarifa variable";241.0;"Propiedad";1;20.0;7;2;1;1
+"Hogar_38";2021;"Marzo";487.0;"Apartamento";"Gas";118.0;"Las Palmas";"Canarias";86;1;"Deficiente";"Sí";0.25;"Calefacción eléctrica";"Verano";"Tarifa variable";393.0;"Propiedad";2;19.0;6;6;2;2
+"Hogar_39";2022;"Febrero";499.0;"Casa";"Eléctrica";99.0;"Zaragoza";"Aragón";62;4;"Deficiente";"No";0.174;"Electrodomésticos";"Verano";"Tarifa variable";210.0;"Alquiler";15;15.0;9;8;1;1
+"Hogar_40";2021;"Noviembre";232.0;"Casa";"Gas";195.0;"Málaga";"Andalucía";118;1;"Deficiente";"Sí";0.223;"Calefacción eléctrica";"Invierno";"Tarifa fija";302.0;"Propiedad";14;24.0;7;2;1;2
+"Hogar_41";2021;"Mayo";190.0;"Apartamento";"Eléctrica";116.0;"Zaragoza";"Aragón";140;5;"Bueno";"Sí";0.29;"Electrodomésticos";"Primavera";"Tarifa fija";297.0;"Alquiler";19;10.0;9;8;2;1
+"Hogar_42";2021;"Marzo";201.0;"Casa";"Eléctrica";71.0;"Sevilla";"Andalucía";124;2;"Regular";"Sí";0.28;"Electrodomésticos";"Verano";"Tarifa fija";345.0;"Alquiler";11;14.0;2;2;1;1
+"Hogar_43";2022;"Mayo";247.0;"Apartamento";"Eléctrica";145.0;"Murcia";"Región de Murcia";53;5;"Regular";"No";0.231;"Electrodomésticos";"Otoño";"Tarifa fija";284.0;"Propiedad";15;23.0;5;5;2;1
+"Hogar_44";2021;"Diciembre";289.0;"Casa";"Gas";148.0;"Zaragoza";"Aragón";105;4;"Regular";"No";0.217;"Aire acondicionado";"Invierno";"Tarifa fija";299.0;"Alquiler";6;14.0;9;8;1;2
+"Hogar_45";2022;"Mayo";472.0;"Apartamento";"Gas";110.0;"Bilbao";"País Vasco";114;5;"Bueno";"No";0.29;"Calefacción eléctrica";"Invierno";"Tarifa variable";303.0;"Propiedad";9;13.0;1;1;2;2
+"Hogar_46";2021;"Abril";350.0;"Apartamento";"Gas";55.0;"Zaragoza";"Aragón";90;4;"Bueno";"Sí";0.1;"Electrodomésticos";"Otoño";"Tarifa fija";379.0;"Alquiler";5;18.0;9;8;2;2
+"Hogar_47";2022;"Julio";106.0;"Casa";"Gas";117.0;"Sevilla";"Andalucía";142;4;"Regular";"No";0.131;"Electrodomésticos";"Verano";"Tarifa fija";245.0;"Propiedad";2;22.0;2;2;1;2
+"Hogar_48";2021;"Mayo";422.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";77;4;"Bueno";"Sí";0.252;"Aire acondicionado";"Primavera";"Tarifa variable";243.0;"Alquiler";6;11.0;4;4;2;2
+"Hogar_49";2022;"Diciembre";314.0;"Casa";"Eléctrica";125.0;"Barcelona";"Cataluña";103;4;"Regular";"No";0.168;"Calefacción eléctrica";"Verano";"Tarifa fija";221.0;"Alquiler";18;24.0;10;9;1;1
+"Hogar_50";2022;"Mayo";131.0;"Casa";"Gas";173.0;"Málaga";"Andalucía";137;4;"Bueno";"Sí";0.185;"Calefacción eléctrica";"Otoño";"Tarifa fija";380.0;"Propiedad";19;21.0;7;2;1;2
+"Hogar_51";2022;"Septiembre";271.0;"Casa";"Gas";165.0;"Murcia";"Región de Murcia";77;2;"Deficiente";"Sí";0.12;"Aire acondicionado";"Invierno";"Tarifa fija";386.0;"Alquiler";9;12.0;5;5;1;2
+"Hogar_52";2021;"Abril";235.0;"Casa";"Gas";104.0;"Las Palmas";"Canarias";89;1;"Deficiente";"Sí";0.146;"Aire acondicionado";"Primavera";"Tarifa variable";313.0;"Propiedad";6;20.0;6;6;1;2
+"Hogar_53";2022;"Diciembre";153.0;"Casa";"Gas";117.0;"Murcia";"Región de Murcia";137;3;"Regular";"No";0.267;"Calefacción eléctrica";"Invierno";"Tarifa fija";324.0;"Alquiler";14;15.0;5;5;1;2
+"Hogar_54";2022;"Septiembre";381.0;"Casa";"Gas";134.0;"Murcia";"Región de Murcia";121;1;"Bueno";"Sí";0.201;"Aire acondicionado";"Otoño";"Tarifa variable";323.0;"Alquiler";13;16.0;5;5;1;2
+"Hogar_55";2021;"Agosto";448.0;"Apartamento";"Eléctrica";54.0;"Barcelona";"Cataluña";69;4;"Bueno";"Sí";0.101;"Calefacción eléctrica";"Verano";"Tarifa variable";229.0;"Alquiler";11;21.0;10;9;2;1
+"Hogar_56";2021;"Marzo";276.0;"Apartamento";"Gas";160.0;"Málaga";"Andalucía";118;2;"Deficiente";"Sí";0.205;"Calefacción eléctrica";"Primavera";"Tarifa fija";207.0;"Propiedad";12;24.0;7;2;2;2
+"Hogar_57";2021;"Mayo";155.0;"Apartamento";"Gas";120.0;"Barcelona";"Cataluña";130;5;"Deficiente";"Sí";0.221;"Electrodomésticos";"Invierno";"Tarifa fija";297.0;"Propiedad";19;11.0;10;9;2;2
+"Hogar_58";2022;"Mayo";242.0;"Apartamento";"Gas";125.0;"Valencia";"Comunidad Valenciana";90;2;"Bueno";"Sí";0.189;"Electrodomésticos";"Invierno";"Tarifa fija";256.0;"Propiedad";19;16.0;4;4;2;2
+"Hogar_59";2022;"Junio";263.0;"Casa";"Eléctrica";173.0;"Valencia";"Comunidad Valenciana";102;4;"Bueno";"Sí";0.182;"Calefacción eléctrica";"Invierno";"Tarifa fija";310.0;"Propiedad";19;17.0;4;4;1;1
+"Hogar_60";2021;"Abril";189.0;"Casa";"Gas";103.0;"Málaga";"Andalucía";137;2;"Bueno";"No";0.244;"Calefacción eléctrica";"Verano";"Tarifa variable";272.0;"Propiedad";13;15.0;7;2;1;2
+"Hogar_61";2022;"Mayo";197.0;"Apartamento";"Eléctrica";66.0;"Zaragoza";"Aragón";91;2;"Bueno";"No";0.175;"Calefacción eléctrica";"Primavera";"Tarifa fija";314.0;"Alquiler";14;15.0;9;8;2;1
+"Hogar_62";2022;"Junio";477.0;"Apartamento";"Eléctrica";188.0;"Bilbao";"País Vasco";77;4;"Bueno";"Sí";0.243;"Calefacción eléctrica";"Verano";"Tarifa variable";219.0;"Alquiler";18;10.0;1;1;2;1
+"Hogar_63";2021;"Septiembre";305.0;"Apartamento";"Gas";87.0;"Zaragoza";"Aragón";136;2;"Bueno";"No";0.189;"Calefacción eléctrica";"Verano";"Tarifa variable";224.0;"Propiedad";12;20.0;9;8;2;2
+"Hogar_64";2022;"Agosto";187.0;"Casa";"Gas";148.0;"Bilbao";"País Vasco";127;3;"Regular";"No";0.118;"Calefacción eléctrica";"Verano";"Tarifa variable";218.0;"Alquiler";4;16.0;1;1;1;2
+"Hogar_65";2021;"Septiembre";390.0;"Casa";"Gas";81.0;"Murcia";"Región de Murcia";118;3;"Bueno";"Sí";0.123;"Aire acondicionado";"Otoño";"Tarifa variable";204.0;"Alquiler";10;12.0;5;5;1;2
+"Hogar_66";2021;"Septiembre";259.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";69;2;"Deficiente";"Sí";0.158;"Calefacción eléctrica";"Otoño";"Tarifa variable";274.0;"Alquiler";17;22.0;8;7;2;1
+"Hogar_67";2021;"Junio";284.0;"Apartamento";"Eléctrica";74.0;"Bilbao";"País Vasco";145;5;"Regular";"Sí";0.123;"Aire acondicionado";"Otoño";"Tarifa fija";327.0;"Alquiler";4;22.0;1;1;2;1
+"Hogar_68";2021;"Noviembre";310.0;"Casa";"Gas";52.0;"Sevilla";"Andalucía";90;4;"Bueno";"No";0.241;"Aire acondicionado";"Primavera";"Tarifa variable";271.0;"Propiedad";12;17.0;2;2;1;2
+"Hogar_69";2022;"Marzo";124.0;"Casa";"Eléctrica";82.0;"Valencia";"Comunidad Valenciana";120;3;"Deficiente";"Sí";0.136;"Calefacción eléctrica";"Verano";"Tarifa variable";354.0;"Alquiler";13;14.0;4;4;1;1
+"Hogar_70";2022;"Diciembre";455.0;"Apartamento";"Gas";117.0;"Sevilla";"Andalucía";44;5;"Regular";"No";0.258;"Calefacción eléctrica";"Verano";"Tarifa fija";239.0;"Propiedad";4;19.0;2;2;2;2
+"Hogar_71";2022;"Noviembre";416.0;"Casa";"Gas";110.0;"Barcelona";"Cataluña";68;2;"Deficiente";"Sí";0.18;"Aire acondicionado";"Otoño";"Tarifa fija";225.0;"Propiedad";10;14.0;10;9;1;2
+"Hogar_72";2022;"Octubre";131.0;"Casa";"Gas";96.0;"Murcia";"Región de Murcia";43;5;"Bueno";"No";0.227;"Aire acondicionado";"Verano";"Tarifa variable";226.0;"Alquiler";3;13.0;5;5;1;2
+"Hogar_73";2022;"Marzo";261.0;"Apartamento";"Eléctrica";65.0;"Zaragoza";"Aragón";49;1;"Bueno";"Sí";0.296;"Calefacción eléctrica";"Verano";"Tarifa variable";389.0;"Propiedad";15;20.0;9;8;2;1
+"Hogar_74";2022;"Octubre";368.0;"Apartamento";"Eléctrica";165.0;"Valencia";"Comunidad Valenciana";95;3;"Bueno";"Sí";0.3;"Calefacción eléctrica";"Invierno";"Tarifa fija";282.0;"Alquiler";2;10.0;4;4;2;1
+"Hogar_75";2022;"Junio";115.0;"Apartamento";"Gas";108.0;"Valencia";"Comunidad Valenciana";56;2;"Bueno";"No";0.11;"Aire acondicionado";"Verano";"Tarifa variable";327.0;"Alquiler";17;11.0;4;4;2;2
+"Hogar_76";2021;"Octubre";413.0;"Apartamento";"Eléctrica";128.0;"Barcelona";"Cataluña";113;4;"Regular";"No";0.15;"Aire acondicionado";"Invierno";"Tarifa fija";377.0;"Alquiler";6;10.0;10;9;2;1
+"Hogar_77";2021;"Abril";203.0;"Casa";"Gas";120.0;"Barcelona";"Cataluña";56;2;"Regular";"No";0.119;"Aire acondicionado";"Verano";"Tarifa fija";369.0;"Propiedad";8;12.0;10;9;1;2
+"Hogar_78";2022;"Junio";342.0;"Apartamento";"Eléctrica";85.0;"Sevilla";"Andalucía";123;4;"Deficiente";"No";0.245;"Electrodomésticos";"Primavera";"Tarifa variable";356.0;"Propiedad";3;11.0;2;2;2;1
+"Hogar_79";2021;"Febrero";441.0;"Apartamento";"Gas";63.0;"Las Palmas";"Canarias";127;2;"Bueno";"No";0.169;"Aire acondicionado";"Otoño";"Tarifa fija";366.0;"Propiedad";18;24.0;6;6;2;2
+"Hogar_80";2022;"Septiembre";121.0;"Casa";"Eléctrica";138.0;"Valencia";"Comunidad Valenciana";108;5;"Deficiente";"No";0.21;"Electrodomésticos";"Invierno";"Tarifa variable";387.0;"Alquiler";1;14.0;4;4;1;1
+"Hogar_81";2022;"Octubre";344.0;"Apartamento";"Gas";63.0;"Valencia";"Comunidad Valenciana";73;5;"Regular";"Sí";0.243;"Calefacción eléctrica";"Otoño";"Tarifa variable";368.0;"Alquiler";16;12.0;4;4;2;2
+"Hogar_82";2021;"Abril";191.0;"Casa";"Gas";184.0;"Barcelona";"Cataluña";45;5;"Bueno";"No";0.286;"Calefacción eléctrica";"Invierno";"Tarifa variable";232.0;"Alquiler";7;13.0;10;9;1;2
+"Hogar_83";2021;"Octubre";466.0;"Apartamento";"Gas";58.0;"Málaga";"Andalucía";92;1;"Bueno";"Sí";0.198;"Aire acondicionado";"Invierno";"Tarifa fija";296.0;"Propiedad";3;24.0;7;2;2;2
+"Hogar_84";2022;"Mayo";308.0;"Casa";"Eléctrica";65.0;"Barcelona";"Cataluña";105;4;"Regular";"Sí";0.234;"Calefacción eléctrica";"Invierno";"Tarifa variable";310.0;"Alquiler";4;17.0;10;9;1;1
+"Hogar_85";2021;"Noviembre";396.0;"Apartamento";"Eléctrica";58.0;"Zaragoza";"Aragón";116;5;"Regular";"No";0.277;"Calefacción eléctrica";"Primavera";"Tarifa fija";215.0;"Alquiler";9;15.0;9;8;2;1
+"Hogar_86";2021;"Noviembre";207.0;"Apartamento";"Eléctrica";170.0;"Madrid";"Comunidad de Madrid";146;1;"Regular";"Sí";0.181;"Calefacción eléctrica";"Verano";"Tarifa variable";222.0;"Propiedad";5;23.0;8;7;2;1
+"Hogar_87";2021;"Agosto";148.0;"Casa";"Gas";61.0;"Sevilla";"Andalucía";82;4;"Regular";"No";0.175;"Calefacción eléctrica";"Invierno";"Tarifa variable";334.0;"Propiedad";19;15.0;2;2;1;2
+"Hogar_88";2021;"Septiembre";321.0;"Casa";"Eléctrica";72.0;"Zaragoza";"Aragón";114;2;"Regular";"No";0.231;"Electrodomésticos";"Primavera";"Tarifa fija";225.0;"Propiedad";15;15.0;9;8;1;1
+"Hogar_89";2022;"Mayo";324.0;"Apartamento";"Gas";147.0;"Valencia";"Comunidad Valenciana";62;1;"Bueno";"Sí";0.129;"Electrodomésticos";"Invierno";"Tarifa variable";295.0;"Alquiler";8;13.0;4;4;2;2
+"Hogar_90";2021;"Agosto";215.0;"Apartamento";"Gas";79.0;"Sevilla";"Andalucía";94;3;"Regular";"Sí";0.252;"Aire acondicionado";"Verano";"Tarifa variable";211.0;"Alquiler";6;15.0;2;2;2;2
+"Hogar_91";2022;"Abril";167.0;"Apartamento";"Eléctrica";144.0;"Málaga";"Andalucía";119;1;"Bueno";"No";0.175;"Aire acondicionado";"Invierno";"Tarifa fija";271.0;"Alquiler";18;14.0;7;2;2;1
+"Hogar_92";2021;"Enero";354.0;"Apartamento";"Eléctrica";129.0;"Barcelona";"Cataluña";134;1;"Bueno";"No";0.22;"Aire acondicionado";"Primavera";"Tarifa fija";332.0;"Propiedad";19;20.0;10;9;2;1
+"Hogar_93";2021;"Marzo";333.0;"Apartamento";"Gas";114.0;"Las Palmas";"Canarias";114;4;"Regular";"Sí";0.273;"Calefacción eléctrica";"Verano";"Tarifa fija";305.0;"Propiedad";15;14.0;6;6;2;2
+"Hogar_94";2021;"Agosto";164.0;"Apartamento";"Gas";95.0;"Valencia";"Comunidad Valenciana";55;2;"Regular";"Sí";0.206;"Calefacción eléctrica";"Primavera";"Tarifa variable";316.0;"Propiedad";7;18.0;4;4;2;2
+"Hogar_95";2021;"Octubre";332.0;"Apartamento";"Eléctrica";172.0;"Palma";"Islas Baleares";47;3;"Bueno";"Sí";0.111;"Electrodomésticos";"Verano";"Tarifa fija";396.0;"Propiedad";10;10.0;3;3;2;1
+"Hogar_96";2022;"Septiembre";429.0;"Apartamento";"Eléctrica";154.0;"Murcia";"Región de Murcia";43;5;"Regular";"Sí";0.237;"Electrodomésticos";"Verano";"Tarifa fija";376.0;"Alquiler";6;12.0;5;5;2;1
+"Hogar_97";2021;"Noviembre";208.0;"Casa";"Gas";141.0;"Málaga";"Andalucía";143;5;"Regular";"No";0.15;"Aire acondicionado";"Otoño";"Tarifa variable";225.0;"Alquiler";14;16.0;7;2;1;2
+"Hogar_98";2021;"Febrero";177.0;"Casa";"Gas";88.0;"Madrid";"Comunidad de Madrid";43;1;"Regular";"No";0.141;"Electrodomésticos";"Otoño";"Tarifa fija";332.0;"Alquiler";17;24.0;8;7;1;2
+"Hogar_99";2021;"Junio";107.0;"Casa";"Gas";132.0;"Las Palmas";"Canarias";95;4;"Deficiente";"No";0.154;"Electrodomésticos";"Otoño";"Tarifa variable";221.0;"Alquiler";9;15.0;6;6;1;2
+"Hogar_100";2021;"Julio";384.0;"Apartamento";"Eléctrica";142.0;"Madrid";"Comunidad de Madrid";64;4;"Bueno";"No";0.247;"Electrodomésticos";"Verano";"Tarifa variable";212.0;"Alquiler";19;19.0;8;7;2;1
